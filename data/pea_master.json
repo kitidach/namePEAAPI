@@ -1,0 +1,6456 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "generatedAt": "2026-03-20T02:54:29.759210+00:00",
+    "sourceFile": "Peaname.xlsx",
+    "description": "PEA office master data — กฟฉ.1 (การไฟฟ้าส่วนภูมิภาค เขต 1)",
+    "totalOffices": 116,
+    "dataHash": "e55ca3c3fb9d"
+  },
+  "region": {
+    "id": "R01",
+    "code": "D00000",
+    "name": "การไฟฟ้าส่วนภูมิภาค เขต 1 (ภาคตะวันออกเฉียงเหนือ)",
+    "shortName": "กฟฉ.1"
+  },
+  "groups8": [
+    {
+      "id": "G8_01",
+      "name": "กฟจ.ขอนแก่น",
+      "shortName": "กฟจ.ขก.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_02",
+      "name": "กฟจ.นครพนม",
+      "shortName": "กฟจ.นพ.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_03",
+      "name": "กฟจ.บึงกาฬ",
+      "shortName": "กฟจ.บฬ.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_04",
+      "name": "กฟจ.สกลนคร",
+      "shortName": "กฟจ.สน.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_05",
+      "name": "กฟจ.หนองคาย",
+      "shortName": "กฟจ.นค.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_06",
+      "name": "กฟจ.หนองบัวลำภู",
+      "shortName": "กฟจ.นภ.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_07",
+      "name": "กฟจ.อุดรธานี",
+      "shortName": "กฟจ.อด.",
+      "regionId": "R01"
+    },
+    {
+      "id": "G8_08",
+      "name": "กฟจ.เลย",
+      "shortName": "กฟจ.ลย.",
+      "regionId": "R01"
+    }
+  ],
+  "groups17": [
+    {
+      "id": "G17_D03",
+      "code": "D03",
+      "name": "กฟจ.ขอนแก่น",
+      "shortName": "กฟจ.ขก.",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D06",
+      "code": "D06",
+      "name": "กฟจ.นครพนม",
+      "shortName": "กฟจ.นพ.",
+      "parent8Id": "G8_02",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D13",
+      "code": "D13",
+      "name": "กฟจ.บึงกาฬ",
+      "shortName": "กฟจ.บฬ.",
+      "parent8Id": "G8_03",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D05",
+      "code": "D05",
+      "name": "กฟจ.สกลนคร",
+      "shortName": "กฟจ.สน.",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D02",
+      "code": "D02",
+      "name": "กฟจ.หนองคาย",
+      "shortName": "กฟจ.นค.",
+      "parent8Id": "G8_05",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D11",
+      "code": "D11",
+      "name": "กฟจ.หนองบัวลำภู",
+      "shortName": "กฟจ.นภ.",
+      "parent8Id": "G8_06",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D01",
+      "code": "D01",
+      "name": "กฟจ.อุดรธานี",
+      "shortName": "กฟจ.อด.",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D04",
+      "code": "D04",
+      "name": "กฟจ.เลย",
+      "shortName": "กฟจ.ลย.",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D08",
+      "code": "D08",
+      "name": "กฟส.กุมภวาปี",
+      "shortName": "กฟส.กภว.",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D14",
+      "code": "D14",
+      "name": "กฟส.ขอนแก่น 2",
+      "shortName": "กฟส.ขก.2",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D07",
+      "code": "D07",
+      "name": "กฟส.ชุมแพ",
+      "shortName": "กฟส.ชมพ.",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D12",
+      "code": "D12",
+      "name": "กฟส.บ้านไผ่",
+      "shortName": "กฟส.บผ.",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D10",
+      "code": "D10",
+      "name": "กฟส.พังโคน",
+      "shortName": "กฟส.พคน.",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D17",
+      "code": "D17",
+      "name": "กฟส.วังสะพุง",
+      "shortName": "กฟส.วสพ.",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D16",
+      "code": "D16",
+      "name": "กฟส.สว่างแดนดิน",
+      "shortName": "กฟส.สดด.",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D09",
+      "code": "D09",
+      "name": "กฟส.หนองหาน",
+      "shortName": "กฟส.นห.",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G17_D15",
+      "code": "D15",
+      "name": "กฟส.อุดรธานี 2",
+      "shortName": "กฟส.อด.2",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    }
+  ],
+  "groups43": [
+    {
+      "id": "G43_D03_01",
+      "name": "กฟจ.ขอนแก่น",
+      "shortName": "กฟจ.ขก.",
+      "parent17Id": "G17_D03",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D03_02",
+      "name": "กฟส.กระนวน",
+      "shortName": "กฟส.กน.",
+      "parent17Id": "G17_D03",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D03_03",
+      "name": "กฟส.น้ำพอง",
+      "shortName": "กฟส.นพง.",
+      "parent17Id": "G17_D03",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D06_01",
+      "name": "กฟจ.นครพนม",
+      "shortName": "กฟจ.นพ.",
+      "parent17Id": "G17_D06",
+      "parent8Id": "G8_02",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D06_02",
+      "name": "กฟส.ธาตุพนม",
+      "shortName": "กฟส.ธพ.",
+      "parent17Id": "G17_D06",
+      "parent8Id": "G8_02",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D06_03",
+      "name": "กฟส.นาแก",
+      "shortName": "กฟส.นก.",
+      "parent17Id": "G17_D06",
+      "parent8Id": "G8_02",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D06_04",
+      "name": "กฟส.บ้านแพง",
+      "shortName": "กฟส.บพง.",
+      "parent17Id": "G17_D06",
+      "parent8Id": "G8_02",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D13_01",
+      "name": "กฟจ.บึงกาฬ",
+      "shortName": "กฟจ.บฬ.",
+      "parent17Id": "G17_D13",
+      "parent8Id": "G8_03",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D13_02",
+      "name": "กฟส.เซกา",
+      "shortName": "กฟส.ซก.",
+      "parent17Id": "G17_D13",
+      "parent8Id": "G8_03",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D05_01",
+      "name": "กฟจ.สกลนคร",
+      "shortName": "กฟจ.สน.",
+      "parent17Id": "G17_D05",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D05_02",
+      "name": "กฟส.พรรณานิคม",
+      "shortName": "กฟส.พณ.",
+      "parent17Id": "G17_D05",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D05_03",
+      "name": "กฟส.อากาศอำนวย",
+      "shortName": "กฟส.ออ.",
+      "parent17Id": "G17_D05",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D02_01",
+      "name": "กฟจ.หนองคาย",
+      "shortName": "กฟจ.นค.",
+      "parent17Id": "G17_D02",
+      "parent8Id": "G8_05",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D02_02",
+      "name": "กฟส.ท่าบ่อ",
+      "shortName": "กฟส.ทบ.",
+      "parent17Id": "G17_D02",
+      "parent8Id": "G8_05",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D02_03",
+      "name": "กฟส.โพนพิสัย",
+      "shortName": "กฟส.พส.",
+      "parent17Id": "G17_D02",
+      "parent8Id": "G8_05",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D11_01",
+      "name": "กฟจ.หนองบัวลำภู",
+      "shortName": "กฟจ.นภ.",
+      "parent17Id": "G17_D11",
+      "parent8Id": "G8_06",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D11_02",
+      "name": "กฟส.นากลาง",
+      "shortName": "กฟส.นกล.",
+      "parent17Id": "G17_D11",
+      "parent8Id": "G8_06",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D11_03",
+      "name": "กฟส.ศรีบุญเรือง",
+      "shortName": "กฟส.ศบร.",
+      "parent17Id": "G17_D11",
+      "parent8Id": "G8_06",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D01_01",
+      "name": "กฟจ.อุดรธานี",
+      "shortName": "กฟจ.อด.",
+      "parent17Id": "G17_D01",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D01_02",
+      "name": "กฟส.กุดจับ",
+      "shortName": "กฟส.กจบ.",
+      "parent17Id": "G17_D01",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D01_03",
+      "name": "กฟส.บ้านผือ",
+      "shortName": "กฟส.บผอ.",
+      "parent17Id": "G17_D01",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D01_04",
+      "name": "กฟส.หนองวัวซอ",
+      "shortName": "กฟส.นวซ.",
+      "parent17Id": "G17_D01",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D04_01",
+      "name": "กฟจ.เลย",
+      "shortName": "กฟจ.ลย.",
+      "parent17Id": "G17_D04",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D04_02",
+      "name": "กฟส.ด่านซ้าย",
+      "shortName": "กฟส.ดซ.",
+      "parent17Id": "G17_D04",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D04_03",
+      "name": "กฟส.เชียงคาน",
+      "shortName": "กฟส.ชคน.",
+      "parent17Id": "G17_D04",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D08_01",
+      "name": "กฟส.กุมภวาปี",
+      "shortName": "กฟส.กภว.",
+      "parent17Id": "G17_D08",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D14_01",
+      "name": "กฟส.ขอนแก่น 2",
+      "shortName": "กฟส.ขก.2",
+      "parent17Id": "G17_D14",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D14_02",
+      "name": "กฟส.บ้านฝาง",
+      "shortName": "กฟส.บฝ.",
+      "parent17Id": "G17_D14",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D07_01",
+      "name": "กฟส.ชุมแพ",
+      "shortName": "กฟส.ชมพ.",
+      "parent17Id": "G17_D07",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D07_02",
+      "name": "กฟส.ภูเวียง",
+      "shortName": "กฟส.ภว.",
+      "parent17Id": "G17_D07",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D07_03",
+      "name": "กฟส.หนองเรือ",
+      "shortName": "กฟส.นรอ.",
+      "parent17Id": "G17_D07",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D12_01",
+      "name": "กฟส.บ้านไผ่",
+      "shortName": "กฟส.บผ.",
+      "parent17Id": "G17_D12",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D12_02",
+      "name": "กฟส.พล",
+      "shortName": "กฟส.พล.",
+      "parent17Id": "G17_D12",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D12_03",
+      "name": "กฟส.มัญจาคีรี",
+      "shortName": "กฟส.มจ.",
+      "parent17Id": "G17_D12",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D12_04",
+      "name": "กฟส.หนองสองห้อง",
+      "shortName": "กฟส.นสห.",
+      "parent17Id": "G17_D12",
+      "parent8Id": "G8_01",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D10_01",
+      "name": "กฟส.พังโคน",
+      "shortName": "กฟส.พคน.",
+      "parent17Id": "G17_D10",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D10_02",
+      "name": "กฟส.วานรนิวาส",
+      "shortName": "กฟส.วว.",
+      "parent17Id": "G17_D10",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D17_01",
+      "name": "กฟส.วังสะพุง",
+      "shortName": "กฟส.วสพ.",
+      "parent17Id": "G17_D17",
+      "parent8Id": "G8_08",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D16_01",
+      "name": "กฟส.สว่างแดนดิน",
+      "shortName": "กฟส.สดด.",
+      "parent17Id": "G17_D16",
+      "parent8Id": "G8_04",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D09_01",
+      "name": "กฟส.บ้านดุง",
+      "shortName": "กฟส.บดง.",
+      "parent17Id": "G17_D09",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D09_02",
+      "name": "กฟส.หนองหาน",
+      "shortName": "กฟส.นห.",
+      "parent17Id": "G17_D09",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D15_01",
+      "name": "กฟส.พญ.",
+      "shortName": "กฟส.พญ.",
+      "parent17Id": "G17_D15",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D15_02",
+      "name": "กฟส.อุดรธานี 2",
+      "shortName": "กฟส.อด.2",
+      "parent17Id": "G17_D15",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    },
+    {
+      "id": "G43_D15_03",
+      "name": "กฟส.เพ็ญ",
+      "shortName": "",
+      "parent17Id": "G17_D15",
+      "parent8Id": "G8_07",
+      "regionId": "R01"
+    }
+  ],
+  "offices": [
+    {
+      "code": "D01101",
+      "shortName": "กฟจ.อด.",
+      "fullName": "กฟจ.อุดรธานี",
+      "size": "L",
+      "index": 1,
+      "parent43Id": "G43_D01_01",
+      "parent43Name": "กฟจ.อุดรธานี",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "อด."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D011",
+      "searchTokens": [
+        "D01101",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "อด",
+        "อด."
+      ]
+    },
+    {
+      "code": "D01301",
+      "shortName": "กฟส.บผอ.",
+      "fullName": "กฟส.บ้านผือ",
+      "size": "S",
+      "index": 2,
+      "parent43Id": "G43_D01_03",
+      "parent43Name": "กฟส.บ้านผือ",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "กฟจ.อด.",
+        "บผอ."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D013",
+      "searchTokens": [
+        "D01301",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บผอ.",
+        "กฟส.บ้านผือ",
+        "กฟสบผอ",
+        "กฟสบ้านผือ",
+        "บผอ",
+        "บผอ."
+      ]
+    },
+    {
+      "code": "D01302",
+      "shortName": "กฟส.นสม.",
+      "fullName": "กฟส.น้ำโสม",
+      "size": "XS",
+      "index": 3,
+      "parent43Id": "G43_D01_03",
+      "parent43Name": "กฟส.บ้านผือ",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D013",
+      "searchTokens": [
+        "D01302",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นสม.",
+        "กฟส.น้ำโสม",
+        "กฟส.บ้านผือ",
+        "กฟสนสม",
+        "กฟสน้ำโสม",
+        "กฟสบ้านผือ"
+      ]
+    },
+    {
+      "code": "D01305",
+      "shortName": "กฟส.นายูง",
+      "fullName": "กฟส.นายูง",
+      "size": "XS",
+      "index": 4,
+      "parent43Id": "G43_D01_03",
+      "parent43Name": "กฟส.บ้านผือ",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D013",
+      "searchTokens": [
+        "D01305",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นายูง",
+        "กฟส.บ้านผือ",
+        "กฟสนายูง",
+        "กฟสบ้านผือ"
+      ]
+    },
+    {
+      "code": "D01401",
+      "shortName": "กฟส.นวซ.",
+      "fullName": "กฟส.หนองวัวซอ",
+      "size": "S",
+      "index": 5,
+      "parent43Id": "G43_D01_04",
+      "parent43Name": "กฟส.หนองวัวซอ",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "กฟจ.อด.",
+        "นวซ."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D014",
+      "searchTokens": [
+        "D01401",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นวซ.",
+        "กฟส.หนองวัวซอ",
+        "กฟสนวซ",
+        "กฟสหนองวัวซอ",
+        "นวซ",
+        "นวซ."
+      ]
+    },
+    {
+      "code": "D01501",
+      "shortName": "กฟส.กจบ.",
+      "fullName": "กฟส.กุดจับ",
+      "size": "S",
+      "index": 6,
+      "parent43Id": "G43_D01_02",
+      "parent43Name": "กฟส.กุดจับ",
+      "parent17Id": "G17_D01",
+      "parent17Name": "กฟจ.อุดรธานี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟจ.อด.",
+      "groupCode": "D01",
+      "groupNum": 1,
+      "aliases": [
+        "กจบ.",
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D015",
+      "searchTokens": [
+        "D01501",
+        "กจบ",
+        "กจบ.",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กจบ.",
+        "กฟส.กุดจับ",
+        "กฟสกจบ",
+        "กฟสกุดจับ"
+      ]
+    },
+    {
+      "code": "D02101",
+      "shortName": "กฟจ.นค.",
+      "fullName": "กฟจ.หนองคาย",
+      "size": "L",
+      "index": 7,
+      "parent43Id": "G43_D02_01",
+      "parent43Name": "กฟจ.หนองคาย",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "นค."
+      ],
+      "warehouseGroup": "กฟจ.หนองคาย",
+      "businessTypeCode": "D021",
+      "searchTokens": [
+        "D02101",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "นค",
+        "นค."
+      ]
+    },
+    {
+      "code": "D02105",
+      "shortName": "กฟส.สรค.",
+      "fullName": "กฟส.สระใคร",
+      "size": "XS",
+      "index": 8,
+      "parent43Id": "G43_D02_01",
+      "parent43Name": "กฟจ.หนองคาย",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D021",
+      "searchTokens": [
+        "D02105",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.สรค.",
+        "กฟส.สระใคร",
+        "กฟสสรค",
+        "กฟสสระใคร"
+      ]
+    },
+    {
+      "code": "D02301",
+      "shortName": "กฟส.ทบ.",
+      "fullName": "กฟส.ท่าบ่อ",
+      "size": "S",
+      "index": 9,
+      "parent43Id": "G43_D02_02",
+      "parent43Name": "กฟส.ท่าบ่อ",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค.",
+        "ทบ."
+      ],
+      "warehouseGroup": "กฟจ.หนองคาย",
+      "businessTypeCode": "D023",
+      "searchTokens": [
+        "D02301",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ทบ.",
+        "กฟส.ท่าบ่อ",
+        "กฟสทบ",
+        "กฟสท่าบ่อ",
+        "ทบ",
+        "ทบ."
+      ]
+    },
+    {
+      "code": "D02302",
+      "shortName": "กฟส.ศช.",
+      "fullName": "กฟส.ศรีเชียงใหม่",
+      "size": "XS",
+      "index": 10,
+      "parent43Id": "G43_D02_02",
+      "parent43Name": "กฟส.ท่าบ่อ",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D023",
+      "searchTokens": [
+        "D02302",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ท่าบ่อ",
+        "กฟส.ศช.",
+        "กฟส.ศรีเชียงใหม่",
+        "กฟสท่าบ่อ",
+        "กฟสศช",
+        "กฟสศรีเชียงใหม่"
+      ]
+    },
+    {
+      "code": "D02303",
+      "shortName": "กฟส.สคม.",
+      "fullName": "กฟส.สังคม",
+      "size": "XS",
+      "index": 11,
+      "parent43Id": "G43_D02_02",
+      "parent43Name": "กฟส.ท่าบ่อ",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D023",
+      "searchTokens": [
+        "D02303",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ท่าบ่อ",
+        "กฟส.สคม.",
+        "กฟส.สังคม",
+        "กฟสท่าบ่อ",
+        "กฟสสคม",
+        "กฟสสังคม"
+      ]
+    },
+    {
+      "code": "D02306",
+      "shortName": "กฟส.พธต.",
+      "fullName": "กฟส.โพธิ์ตาก",
+      "size": "XS",
+      "index": 12,
+      "parent43Id": "G43_D02_02",
+      "parent43Name": "กฟส.ท่าบ่อ",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D023",
+      "searchTokens": [
+        "D02306",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ท่าบ่อ",
+        "กฟส.พธต.",
+        "กฟส.โพธิ์ตาก",
+        "กฟสท่าบ่อ",
+        "กฟสพธต",
+        "กฟสโพธิ์ตาก"
+      ]
+    },
+    {
+      "code": "D02401",
+      "shortName": "กฟส.พส.",
+      "fullName": "กฟส.โพนพิสัย",
+      "size": "S",
+      "index": 13,
+      "parent43Id": "G43_D02_03",
+      "parent43Name": "กฟส.โพนพิสัย",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค.",
+        "พส."
+      ],
+      "warehouseGroup": "กฟจ.หนองคาย",
+      "businessTypeCode": "D024",
+      "searchTokens": [
+        "D02401",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พส.",
+        "กฟส.โพนพิสัย",
+        "กฟสพส",
+        "กฟสโพนพิสัย",
+        "พส",
+        "พส."
+      ]
+    },
+    {
+      "code": "D02402",
+      "shortName": "กฟส.รวป.",
+      "fullName": "กฟส.รัตนวาปี",
+      "size": "XS",
+      "index": 14,
+      "parent43Id": "G43_D02_03",
+      "parent43Name": "กฟส.โพนพิสัย",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D024",
+      "searchTokens": [
+        "D02402",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.รวป.",
+        "กฟส.รัตนวาปี",
+        "กฟส.โพนพิสัย",
+        "กฟสรวป",
+        "กฟสรัตนวาปี",
+        "กฟสโพนพิสัย"
+      ]
+    },
+    {
+      "code": "D02405",
+      "shortName": "กฟส.ฝร.",
+      "fullName": "กฟส.เฝ้าไร่",
+      "size": "XS",
+      "index": 15,
+      "parent43Id": "G43_D02_03",
+      "parent43Name": "กฟส.โพนพิสัย",
+      "parent17Id": "G17_D02",
+      "parent17Name": "กฟจ.หนองคาย",
+      "parent8Id": "G8_05",
+      "parent8Name": "กฟจ.หนองคาย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นค.",
+      "shortName17": "กฟจ.นค.",
+      "groupCode": "D02",
+      "groupNum": 2,
+      "aliases": [
+        "กฟจ.นค."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D024",
+      "searchTokens": [
+        "D02405",
+        "กฟจ.นค.",
+        "กฟจ.หนองคาย",
+        "กฟจนค",
+        "กฟจหนองคาย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ฝร.",
+        "กฟส.เฝ้าไร่",
+        "กฟส.โพนพิสัย",
+        "กฟสฝร",
+        "กฟสเฝ้าไร่",
+        "กฟสโพนพิสัย"
+      ]
+    },
+    {
+      "code": "D03101",
+      "shortName": "กฟจ.ขก.",
+      "fullName": "กฟจ.ขอนแก่น",
+      "size": "L",
+      "index": 16,
+      "parent43Id": "G43_D03_01",
+      "parent43Name": "กฟจ.ขอนแก่น",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "ขก."
+      ],
+      "warehouseGroup": "กฟจ.ขอนแก่น",
+      "businessTypeCode": "D031",
+      "searchTokens": [
+        "D03101",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "ขก",
+        "ขก."
+      ]
+    },
+    {
+      "code": "D03201",
+      "shortName": "กฟส.นพง.",
+      "fullName": "กฟส.น้ำพอง",
+      "size": "S",
+      "index": 17,
+      "parent43Id": "G43_D03_03",
+      "parent43Name": "กฟส.น้ำพอง",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "กฟจ.ขก.",
+        "นพง."
+      ],
+      "warehouseGroup": "กฟจ.ขอนแก่น",
+      "businessTypeCode": "D032",
+      "searchTokens": [
+        "D03201",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นพง.",
+        "กฟส.น้ำพอง",
+        "กฟสนพง",
+        "กฟสน้ำพอง",
+        "นพง",
+        "นพง."
+      ]
+    },
+    {
+      "code": "D03203",
+      "shortName": "กฟส.ขสก.",
+      "fullName": "กฟส.เขาสวนกวาง",
+      "size": "XS",
+      "index": 18,
+      "parent43Id": "G43_D03_03",
+      "parent43Name": "กฟส.น้ำพอง",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D032",
+      "searchTokens": [
+        "D03203",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ขสก.",
+        "กฟส.น้ำพอง",
+        "กฟส.เขาสวนกวาง",
+        "กฟสขสก",
+        "กฟสน้ำพอง",
+        "กฟสเขาสวนกวาง"
+      ]
+    },
+    {
+      "code": "D03207",
+      "shortName": "กฟส.อรต.",
+      "fullName": "กฟส.อุบลรัตน์",
+      "size": "XS",
+      "index": 19,
+      "parent43Id": "G43_D03_03",
+      "parent43Name": "กฟส.น้ำพอง",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D032",
+      "searchTokens": [
+        "D03207",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.น้ำพอง",
+        "กฟส.อรต.",
+        "กฟส.อุบลรัตน์",
+        "กฟสน้ำพอง",
+        "กฟสอรต",
+        "กฟสอุบลรัตน์"
+      ]
+    },
+    {
+      "code": "D03501",
+      "shortName": "กฟส.กน.",
+      "fullName": "กฟส.กระนวน",
+      "size": "S",
+      "index": 20,
+      "parent43Id": "G43_D03_02",
+      "parent43Name": "กฟส.กระนวน",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "กน.",
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "กฟจ.ขอนแก่น",
+      "businessTypeCode": "D035",
+      "searchTokens": [
+        "D03501",
+        "กน",
+        "กน.",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กน.",
+        "กฟส.กระนวน",
+        "กฟสกน",
+        "กฟสกระนวน"
+      ]
+    },
+    {
+      "code": "D03502",
+      "shortName": "กฟส.ซำสูง",
+      "fullName": "กฟส.ซำสูง",
+      "size": "XS",
+      "index": 21,
+      "parent43Id": "G43_D03_02",
+      "parent43Name": "กฟส.กระนวน",
+      "parent17Id": "G17_D03",
+      "parent17Name": "กฟจ.ขอนแก่น",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟจ.ขก.",
+      "groupCode": "D03",
+      "groupNum": 3,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D035",
+      "searchTokens": [
+        "D03502",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กระนวน",
+        "กฟส.ซำสูง",
+        "กฟสกระนวน",
+        "กฟสซำสูง"
+      ]
+    },
+    {
+      "code": "D04101",
+      "shortName": "กฟจ.ลย.",
+      "fullName": "กฟจ.เลย",
+      "size": "M",
+      "index": 22,
+      "parent43Id": "G43_D04_01",
+      "parent43Name": "กฟจ.เลย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "ลย."
+      ],
+      "warehouseGroup": "กฟจ.เลย",
+      "businessTypeCode": "D041",
+      "searchTokens": [
+        "D04101",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "ลย",
+        "ลย."
+      ]
+    },
+    {
+      "code": "D04103",
+      "shortName": "กฟส.นดง.",
+      "fullName": "กฟส.นาด้วง",
+      "size": "XS",
+      "index": 23,
+      "parent43Id": "G43_D04_01",
+      "parent43Name": "กฟจ.เลย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D041",
+      "searchTokens": [
+        "D04103",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นดง.",
+        "กฟส.นาด้วง",
+        "กฟสนดง",
+        "กฟสนาด้วง"
+      ]
+    },
+    {
+      "code": "D04104",
+      "shortName": "กฟส.ทล.",
+      "fullName": "กฟส.ท่าลี่",
+      "size": "XS",
+      "index": 24,
+      "parent43Id": "G43_D04_01",
+      "parent43Name": "กฟจ.เลย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D041",
+      "searchTokens": [
+        "D04104",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ทล.",
+        "กฟส.ท่าลี่",
+        "กฟสทล",
+        "กฟสท่าลี่"
+      ]
+    },
+    {
+      "code": "D04108",
+      "shortName": "กฟส.ภร.",
+      "fullName": "กฟส.ภูเรือ",
+      "size": "XS",
+      "index": 25,
+      "parent43Id": "G43_D04_01",
+      "parent43Name": "กฟจ.เลย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D041",
+      "searchTokens": [
+        "D04108",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ภร.",
+        "กฟส.ภูเรือ",
+        "กฟสภร",
+        "กฟสภูเรือ"
+      ]
+    },
+    {
+      "code": "D04301",
+      "shortName": "กฟส.ชคน.",
+      "fullName": "กฟส.เชียงคาน",
+      "size": "S",
+      "index": 26,
+      "parent43Id": "G43_D04_03",
+      "parent43Name": "กฟส.เชียงคาน",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย.",
+        "ชคน."
+      ],
+      "warehouseGroup": "กฟจ.เลย",
+      "businessTypeCode": "D043",
+      "searchTokens": [
+        "D04301",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชคน.",
+        "กฟส.เชียงคาน",
+        "กฟสชคน",
+        "กฟสเชียงคาน",
+        "ชคน",
+        "ชคน."
+      ]
+    },
+    {
+      "code": "D04302",
+      "shortName": "กฟส.ปชม.",
+      "fullName": "กฟส.ปากชม",
+      "size": "XS",
+      "index": 27,
+      "parent43Id": "G43_D04_03",
+      "parent43Name": "กฟส.เชียงคาน",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D043",
+      "searchTokens": [
+        "D04302",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ปชม.",
+        "กฟส.ปากชม",
+        "กฟส.เชียงคาน",
+        "กฟสปชม",
+        "กฟสปากชม",
+        "กฟสเชียงคาน"
+      ]
+    },
+    {
+      "code": "D04401",
+      "shortName": "กฟส.ดซ.",
+      "fullName": "กฟส.ด่านซ้าย",
+      "size": "S",
+      "index": 28,
+      "parent43Id": "G43_D04_02",
+      "parent43Name": "กฟส.ด่านซ้าย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย.",
+        "ดซ."
+      ],
+      "warehouseGroup": "กฟจ.เลย",
+      "businessTypeCode": "D044",
+      "searchTokens": [
+        "D04401",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ดซ.",
+        "กฟส.ด่านซ้าย",
+        "กฟสดซ",
+        "กฟสด่านซ้าย",
+        "ดซ",
+        "ดซ."
+      ]
+    },
+    {
+      "code": "D04402",
+      "shortName": "กฟส.นาแห้ว",
+      "fullName": "กฟส.นาแห้ว",
+      "size": "XS",
+      "index": 29,
+      "parent43Id": "G43_D04_02",
+      "parent43Name": "กฟส.ด่านซ้าย",
+      "parent17Id": "G17_D04",
+      "parent17Name": "กฟจ.เลย",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟจ.ลย.",
+      "groupCode": "D04",
+      "groupNum": 4,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D044",
+      "searchTokens": [
+        "D04402",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ด่านซ้าย",
+        "กฟส.นาแห้ว",
+        "กฟสด่านซ้าย",
+        "กฟสนาแห้ว"
+      ]
+    },
+    {
+      "code": "D05101",
+      "shortName": "กฟจ.สน.",
+      "fullName": "กฟจ.สกลนคร",
+      "size": "L",
+      "index": 30,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "สน."
+      ],
+      "warehouseGroup": "กฟจ.สกลนคร",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05101",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "สน",
+        "สน."
+      ]
+    },
+    {
+      "code": "D05102",
+      "shortName": "กฟส.กสม.",
+      "fullName": "กฟส.กุสุมาลย์",
+      "size": "XS",
+      "index": 31,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05102",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กสม.",
+        "กฟส.กุสุมาลย์",
+        "กฟสกสม",
+        "กฟสกุสุมาลย์"
+      ]
+    },
+    {
+      "code": "D05103",
+      "shortName": "กฟส.คศส.",
+      "fullName": "กฟส.โคกศรีสุพรรณ",
+      "size": "XS",
+      "index": 32,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05103",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.คศส.",
+        "กฟส.โคกศรีสุพรรณ",
+        "กฟสคศส",
+        "กฟสโคกศรีสุพรรณ"
+      ]
+    },
+    {
+      "code": "D05106",
+      "shortName": "กฟส.ภพ.",
+      "fullName": "กฟส.ภูพาน",
+      "size": "XS",
+      "index": 33,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05106",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ภพ.",
+        "กฟส.ภูพาน",
+        "กฟสภพ",
+        "กฟสภูพาน"
+      ]
+    },
+    {
+      "code": "D05109",
+      "shortName": "กฟส.ตงย.",
+      "fullName": "กฟส.เต่างอย",
+      "size": "XS",
+      "index": 34,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05109",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ตงย.",
+        "กฟส.เต่างอย",
+        "กฟสตงย",
+        "กฟสเต่างอย"
+      ]
+    },
+    {
+      "code": "D05111",
+      "shortName": "กฟส.พนก.",
+      "fullName": "กฟส.โพนนาแก้ว",
+      "size": "XS",
+      "index": 35,
+      "parent43Id": "G43_D05_01",
+      "parent43Name": "กฟจ.สกลนคร",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D051",
+      "searchTokens": [
+        "D05111",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พนก.",
+        "กฟส.โพนนาแก้ว",
+        "กฟสพนก",
+        "กฟสโพนนาแก้ว"
+      ]
+    },
+    {
+      "code": "D05201",
+      "shortName": "กฟส.ออ.",
+      "fullName": "กฟส.อากาศอำนวย",
+      "size": "S",
+      "index": 36,
+      "parent43Id": "G43_D05_03",
+      "parent43Name": "กฟส.อากาศอำนวย",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน.",
+        "ออ."
+      ],
+      "warehouseGroup": "กฟจ.สกลนคร",
+      "businessTypeCode": "D052",
+      "searchTokens": [
+        "D05201",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ออ.",
+        "กฟส.อากาศอำนวย",
+        "กฟสออ",
+        "กฟสอากาศอำนวย",
+        "ออ",
+        "ออ."
+      ]
+    },
+    {
+      "code": "D05301",
+      "shortName": "กฟส.พณ.",
+      "fullName": "กฟส.พรรณานิคม",
+      "size": "S",
+      "index": 37,
+      "parent43Id": "G43_D05_02",
+      "parent43Name": "กฟส.พรรณานิคม",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน.",
+        "พณ."
+      ],
+      "warehouseGroup": "กฟจ.สกลนคร",
+      "businessTypeCode": "D053",
+      "searchTokens": [
+        "D05301",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พณ.",
+        "กฟส.พรรณานิคม",
+        "กฟสพณ",
+        "กฟสพรรณานิคม",
+        "พณ",
+        "พณ."
+      ]
+    },
+    {
+      "code": "D05302",
+      "shortName": "กฟส.กบก.",
+      "fullName": "กฟส.กุดบาก",
+      "size": "XS",
+      "index": 38,
+      "parent43Id": "G43_D05_02",
+      "parent43Name": "กฟส.พรรณานิคม",
+      "parent17Id": "G17_D05",
+      "parent17Name": "กฟจ.สกลนคร",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟจ.สน.",
+      "groupCode": "D05",
+      "groupNum": 5,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D053",
+      "searchTokens": [
+        "D05302",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กบก.",
+        "กฟส.กุดบาก",
+        "กฟส.พรรณานิคม",
+        "กฟสกบก",
+        "กฟสกุดบาก",
+        "กฟสพรรณานิคม"
+      ]
+    },
+    {
+      "code": "D06101",
+      "shortName": "กฟจ.นพ.",
+      "fullName": "กฟจ.นครพนม",
+      "size": "L",
+      "index": 39,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "นพ."
+      ],
+      "warehouseGroup": "กฟจ.นครพนม",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06101",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "นพ",
+        "นพ."
+      ]
+    },
+    {
+      "code": "D06102",
+      "shortName": "กฟส.ทอ.",
+      "fullName": "กฟส.ท่าอุเทน",
+      "size": "XS",
+      "index": 40,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06102",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ทอ.",
+        "กฟส.ท่าอุเทน",
+        "กฟสทอ",
+        "กฟสท่าอุเทน"
+      ]
+    },
+    {
+      "code": "D06104",
+      "shortName": "กฟส.นหว.",
+      "fullName": "กฟส.นาหว้า",
+      "size": "XS",
+      "index": 41,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06104",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นหว.",
+        "กฟส.นาหว้า",
+        "กฟสนหว",
+        "กฟสนาหว้า"
+      ]
+    },
+    {
+      "code": "D06105",
+      "shortName": "กฟส.ศค.",
+      "fullName": "กฟส.ศรีสงคราม",
+      "size": "XS",
+      "index": 42,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06105",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ศค.",
+        "กฟส.ศรีสงคราม",
+        "กฟสศค",
+        "กฟสศรีสงคราม"
+      ]
+    },
+    {
+      "code": "D06107",
+      "shortName": "กฟส.ปลป.",
+      "fullName": "กฟส.ปลาปาก",
+      "size": "XS",
+      "index": 43,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06107",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ปลป.",
+        "กฟส.ปลาปาก",
+        "กฟสปลป",
+        "กฟสปลาปาก"
+      ]
+    },
+    {
+      "code": "D06110",
+      "shortName": "กฟส.พสว.",
+      "fullName": "กฟส.โพนสวรรค์",
+      "size": "XS",
+      "index": 44,
+      "parent43Id": "G43_D06_01",
+      "parent43Name": "กฟจ.นครพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D061",
+      "searchTokens": [
+        "D06110",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พสว.",
+        "กฟส.โพนสวรรค์",
+        "กฟสพสว",
+        "กฟสโพนสวรรค์"
+      ]
+    },
+    {
+      "code": "D06201",
+      "shortName": "กฟส.ธพ.",
+      "fullName": "กฟส.ธาตุพนม",
+      "size": "S",
+      "index": 45,
+      "parent43Id": "G43_D06_02",
+      "parent43Name": "กฟส.ธาตุพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ.",
+        "ธพ."
+      ],
+      "warehouseGroup": "กฟจ.นครพนม",
+      "businessTypeCode": "D062",
+      "searchTokens": [
+        "D06201",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ธพ.",
+        "กฟส.ธาตุพนม",
+        "กฟสธพ",
+        "กฟสธาตุพนม",
+        "ธพ",
+        "ธพ."
+      ]
+    },
+    {
+      "code": "D06202",
+      "shortName": "กฟส.รณ.",
+      "fullName": "กฟส.เรณูนคร",
+      "size": "XS",
+      "index": 46,
+      "parent43Id": "G43_D06_02",
+      "parent43Name": "กฟส.ธาตุพนม",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D062",
+      "searchTokens": [
+        "D06202",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ธาตุพนม",
+        "กฟส.รณ.",
+        "กฟส.เรณูนคร",
+        "กฟสธาตุพนม",
+        "กฟสรณ",
+        "กฟสเรณูนคร"
+      ]
+    },
+    {
+      "code": "D06301",
+      "shortName": "กฟส.นาแก",
+      "fullName": "กฟส.นาแก",
+      "size": "S",
+      "index": 47,
+      "parent43Id": "G43_D06_03",
+      "parent43Name": "กฟส.นาแก",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ.",
+        "กฟส.นก.",
+        "นก."
+      ],
+      "warehouseGroup": "กฟจ.นครพนม",
+      "businessTypeCode": "D063",
+      "searchTokens": [
+        "D06301",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นก.",
+        "กฟส.นาแก",
+        "กฟสนก",
+        "กฟสนาแก",
+        "นก",
+        "นก."
+      ]
+    },
+    {
+      "code": "D06302",
+      "shortName": "กฟส.วย.",
+      "fullName": "กฟส.วังยาง",
+      "size": "XS",
+      "index": 48,
+      "parent43Id": "G43_D06_03",
+      "parent43Name": "กฟส.นาแก",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D063",
+      "searchTokens": [
+        "D06302",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นาแก",
+        "กฟส.วย.",
+        "กฟส.วังยาง",
+        "กฟสนาแก",
+        "กฟสวย",
+        "กฟสวังยาง"
+      ]
+    },
+    {
+      "code": "D06401",
+      "shortName": "กฟส.บพง.",
+      "fullName": "กฟส.บ้านแพง",
+      "size": "S",
+      "index": 49,
+      "parent43Id": "G43_D06_04",
+      "parent43Name": "กฟส.บ้านแพง",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ.",
+        "บพง."
+      ],
+      "warehouseGroup": "กฟจ.นครพนม",
+      "businessTypeCode": "D064",
+      "searchTokens": [
+        "D06401",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บพง.",
+        "กฟส.บ้านแพง",
+        "กฟสบพง",
+        "กฟสบ้านแพง",
+        "บพง",
+        "บพง."
+      ]
+    },
+    {
+      "code": "D06402",
+      "shortName": "กฟส.นทม.",
+      "fullName": "กฟส.นาทม",
+      "size": "XS",
+      "index": 50,
+      "parent43Id": "G43_D06_04",
+      "parent43Name": "กฟส.บ้านแพง",
+      "parent17Id": "G17_D06",
+      "parent17Name": "กฟจ.นครพนม",
+      "parent8Id": "G8_02",
+      "parent8Name": "กฟจ.นครพนม",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นพ.",
+      "shortName17": "กฟจ.นพ.",
+      "groupCode": "D06",
+      "groupNum": 6,
+      "aliases": [
+        "กฟจ.นพ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D064",
+      "searchTokens": [
+        "D06402",
+        "กฟจ.นครพนม",
+        "กฟจ.นพ.",
+        "กฟจนครพนม",
+        "กฟจนพ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นทม.",
+        "กฟส.นาทม",
+        "กฟส.บ้านแพง",
+        "กฟสนทม",
+        "กฟสนาทม",
+        "กฟสบ้านแพง"
+      ]
+    },
+    {
+      "code": "D07101",
+      "shortName": "กฟส.ชมพ.",
+      "fullName": "กฟส.ชุมแพ",
+      "size": "M",
+      "index": 51,
+      "parent43Id": "G43_D07_01",
+      "parent43Name": "กฟส.ชุมแพ",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก.",
+        "ชมพ."
+      ],
+      "warehouseGroup": "กฟส.ชุมแพ",
+      "businessTypeCode": "D071",
+      "searchTokens": [
+        "D07101",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชมพ.",
+        "กฟส.ชุมแพ",
+        "กฟสชมพ",
+        "กฟสชุมแพ",
+        "ชมพ",
+        "ชมพ."
+      ]
+    },
+    {
+      "code": "D07102",
+      "shortName": "กฟส.สชพ.",
+      "fullName": "กฟส.สีชมพู",
+      "size": "XS",
+      "index": 52,
+      "parent43Id": "G43_D07_01",
+      "parent43Name": "กฟส.ชุมแพ",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D071",
+      "searchTokens": [
+        "D07102",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.สชพ.",
+        "กฟส.สีชมพู",
+        "กฟสชุมแพ",
+        "กฟสสชพ",
+        "กฟสสีชมพู"
+      ]
+    },
+    {
+      "code": "D07109",
+      "shortName": "กฟส.ภผม.",
+      "fullName": "กฟส.ภูผาม่าน",
+      "size": "XS",
+      "index": 53,
+      "parent43Id": "G43_D07_01",
+      "parent43Name": "กฟส.ชุมแพ",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D071",
+      "searchTokens": [
+        "D07109",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.ภผม.",
+        "กฟส.ภูผาม่าน",
+        "กฟสชุมแพ",
+        "กฟสภผม",
+        "กฟสภูผาม่าน"
+      ]
+    },
+    {
+      "code": "D07201",
+      "shortName": "กฟส.ภว.",
+      "fullName": "กฟส.ภูเวียง",
+      "size": "S",
+      "index": 54,
+      "parent43Id": "G43_D07_02",
+      "parent43Name": "กฟส.ภูเวียง",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก.",
+        "ภว."
+      ],
+      "warehouseGroup": "กฟส.ชุมแพ",
+      "businessTypeCode": "D072",
+      "searchTokens": [
+        "D07201",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.ภว.",
+        "กฟส.ภูเวียง",
+        "กฟสชุมแพ",
+        "กฟสภว",
+        "กฟสภูเวียง",
+        "ภว",
+        "ภว."
+      ]
+    },
+    {
+      "code": "D07203",
+      "shortName": "กฟส.หนค.",
+      "fullName": "กฟส.หนองนาคำ",
+      "size": "XS",
+      "index": 55,
+      "parent43Id": "G43_D07_02",
+      "parent43Name": "กฟส.ภูเวียง",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D072",
+      "searchTokens": [
+        "D07203",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.ภูเวียง",
+        "กฟส.หนค.",
+        "กฟส.หนองนาคำ",
+        "กฟสชุมแพ",
+        "กฟสภูเวียง",
+        "กฟสหนค",
+        "กฟสหนองนาคำ"
+      ]
+    },
+    {
+      "code": "D07204",
+      "shortName": "กฟส.วก.",
+      "fullName": "กฟส.เวียงเก่า",
+      "size": "XS",
+      "index": 56,
+      "parent43Id": "G43_D07_02",
+      "parent43Name": "กฟส.ภูเวียง",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D072",
+      "searchTokens": [
+        "D07204",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.ภูเวียง",
+        "กฟส.วก.",
+        "กฟส.เวียงเก่า",
+        "กฟสชุมแพ",
+        "กฟสภูเวียง",
+        "กฟสวก",
+        "กฟสเวียงเก่า"
+      ]
+    },
+    {
+      "code": "D07301",
+      "shortName": "กฟส.นรอ.",
+      "fullName": "กฟส.หนองเรือ",
+      "size": "S",
+      "index": 57,
+      "parent43Id": "G43_D07_03",
+      "parent43Name": "กฟส.หนองเรือ",
+      "parent17Id": "G17_D07",
+      "parent17Name": "กฟส.ชุมแพ",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ชมพ.",
+      "groupCode": "D07",
+      "groupNum": 7,
+      "aliases": [
+        "กฟจ.ขก.",
+        "นรอ."
+      ],
+      "warehouseGroup": "กฟส.ชุมแพ",
+      "businessTypeCode": "D073",
+      "searchTokens": [
+        "D07301",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชุมแพ",
+        "กฟส.นรอ.",
+        "กฟส.หนองเรือ",
+        "กฟสชุมแพ",
+        "กฟสนรอ",
+        "กฟสหนองเรือ",
+        "นรอ",
+        "นรอ."
+      ]
+    },
+    {
+      "code": "D08101",
+      "shortName": "กฟส.กภว.",
+      "fullName": "กฟส.กุมภวาปี",
+      "size": "M",
+      "index": 58,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด.",
+        "กภว."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08101",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กภว.",
+        "กฟส.กุมภวาปี",
+        "กฟสกภว",
+        "กฟสกุมภวาปี",
+        "กภว",
+        "กภว."
+      ]
+    },
+    {
+      "code": "D08102",
+      "shortName": "กฟส.ศธ.",
+      "fullName": "กฟส.ศรีธาตุ",
+      "size": "XS",
+      "index": 59,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08102",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กุมภวาปี",
+        "กฟส.ศธ.",
+        "กฟส.ศรีธาตุ",
+        "กฟสกุมภวาปี",
+        "กฟสศธ",
+        "กฟสศรีธาตุ"
+      ]
+    },
+    {
+      "code": "D08103",
+      "shortName": "กฟส.นสอ.",
+      "fullName": "กฟส.โนนสะอาด",
+      "size": "XS",
+      "index": 60,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08103",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กุมภวาปี",
+        "กฟส.นสอ.",
+        "กฟส.โนนสะอาด",
+        "กฟสกุมภวาปี",
+        "กฟสนสอ",
+        "กฟสโนนสะอาด"
+      ]
+    },
+    {
+      "code": "D08105",
+      "shortName": "กฟส.วสม.",
+      "fullName": "กฟส.วังสามหมอ",
+      "size": "XS",
+      "index": 61,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08105",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กุมภวาปี",
+        "กฟส.วสม.",
+        "กฟส.วังสามหมอ",
+        "กฟสกุมภวาปี",
+        "กฟสวสม",
+        "กฟสวังสามหมอ"
+      ]
+    },
+    {
+      "code": "D08109",
+      "shortName": "กฟส.นงง.",
+      "fullName": "กฟส.หนองแสง",
+      "size": "XS",
+      "index": 62,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08109",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กุมภวาปี",
+        "กฟส.นงง.",
+        "กฟส.หนองแสง",
+        "กฟสกุมภวาปี",
+        "กฟสนงง",
+        "กฟสหนองแสง"
+      ]
+    },
+    {
+      "code": "D08110",
+      "shortName": "กฟส.ปศค.",
+      "fullName": "กฟส.ประจักษ์ศิลปาคม",
+      "size": "XS",
+      "index": 63,
+      "parent43Id": "G43_D08_01",
+      "parent43Name": "กฟส.กุมภวาปี",
+      "parent17Id": "G17_D08",
+      "parent17Name": "กฟส.กุมภวาปี",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.กภว.",
+      "groupCode": "D08",
+      "groupNum": 8,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D081",
+      "searchTokens": [
+        "D08110",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กุมภวาปี",
+        "กฟส.ประจักษ์ศิลปาคม",
+        "กฟส.ปศค.",
+        "กฟสกุมภวาปี",
+        "กฟสประจักษ์ศิลปาคม",
+        "กฟสปศค"
+      ]
+    },
+    {
+      "code": "D09101",
+      "shortName": "กฟส.นห.",
+      "fullName": "กฟส.หนองหาน",
+      "size": "M",
+      "index": 64,
+      "parent43Id": "G43_D09_02",
+      "parent43Name": "กฟส.หนองหาน",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด.",
+        "นห."
+      ],
+      "warehouseGroup": "กฟส.หนองหาน",
+      "businessTypeCode": "D091",
+      "searchTokens": [
+        "D09101",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นห.",
+        "กฟส.หนองหาน",
+        "กฟสนห",
+        "กฟสหนองหาน",
+        "นห",
+        "นห."
+      ]
+    },
+    {
+      "code": "D09103",
+      "shortName": "กฟส.ชว.",
+      "fullName": "กฟส.ไชยวาน",
+      "size": "XS",
+      "index": 65,
+      "parent43Id": "G43_D09_02",
+      "parent43Name": "กฟส.หนองหาน",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D091",
+      "searchTokens": [
+        "D09103",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชว.",
+        "กฟส.หนองหาน",
+        "กฟส.ไชยวาน",
+        "กฟสชว",
+        "กฟสหนองหาน",
+        "กฟสไชยวาน"
+      ]
+    },
+    {
+      "code": "D09104",
+      "shortName": "กฟส.ทฝ.",
+      "fullName": "กฟส.ทุ่งฝน",
+      "size": "XS",
+      "index": 66,
+      "parent43Id": "G43_D09_02",
+      "parent43Name": "กฟส.หนองหาน",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D091",
+      "searchTokens": [
+        "D09104",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ทฝ.",
+        "กฟส.ทุ่งฝน",
+        "กฟส.หนองหาน",
+        "กฟสทฝ",
+        "กฟสทุ่งฝน",
+        "กฟสหนองหาน"
+      ]
+    },
+    {
+      "code": "D09105",
+      "shortName": "กฟส.พบษ.",
+      "fullName": "กฟส.พิบูลย์รักษ์",
+      "size": "XS",
+      "index": 67,
+      "parent43Id": "G43_D09_02",
+      "parent43Name": "กฟส.หนองหาน",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D091",
+      "searchTokens": [
+        "D09105",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พบษ.",
+        "กฟส.พิบูลย์รักษ์",
+        "กฟส.หนองหาน",
+        "กฟสพบษ",
+        "กฟสพิบูลย์รักษ์",
+        "กฟสหนองหาน"
+      ]
+    },
+    {
+      "code": "D09108",
+      "shortName": "กฟส.กว.",
+      "fullName": "กฟส.กู่แก้ว",
+      "size": "XS",
+      "index": 68,
+      "parent43Id": "G43_D09_02",
+      "parent43Name": "กฟส.หนองหาน",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D091",
+      "searchTokens": [
+        "D09108",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.กว.",
+        "กฟส.กู่แก้ว",
+        "กฟส.หนองหาน",
+        "กฟสกว",
+        "กฟสกู่แก้ว",
+        "กฟสหนองหาน"
+      ]
+    },
+    {
+      "code": "D09201",
+      "shortName": "กฟส.บดง.",
+      "fullName": "กฟส.บ้านดุง",
+      "size": "S",
+      "index": 69,
+      "parent43Id": "G43_D09_01",
+      "parent43Name": "กฟส.บ้านดุง",
+      "parent17Id": "G17_D09",
+      "parent17Name": "กฟส.หนองหาน",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.นห.",
+      "groupCode": "D09",
+      "groupNum": 9,
+      "aliases": [
+        "กฟจ.อด.",
+        "บดง."
+      ],
+      "warehouseGroup": "กฟส.หนองหาน",
+      "businessTypeCode": "D092",
+      "searchTokens": [
+        "D09201",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บดง.",
+        "กฟส.บ้านดุง",
+        "กฟส.หนองหาน",
+        "กฟสบดง",
+        "กฟสบ้านดุง",
+        "กฟสหนองหาน",
+        "บดง",
+        "บดง."
+      ]
+    },
+    {
+      "code": "D10101",
+      "shortName": "กฟส.พคน.",
+      "fullName": "กฟส.พังโคน",
+      "size": "M",
+      "index": 70,
+      "parent43Id": "G43_D10_01",
+      "parent43Name": "กฟส.พังโคน",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน.",
+        "พคน."
+      ],
+      "warehouseGroup": "กฟส.พังโคน",
+      "businessTypeCode": "D101",
+      "searchTokens": [
+        "D10101",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พคน.",
+        "กฟส.พังโคน",
+        "กฟสพคน",
+        "กฟสพังโคน",
+        "พคน",
+        "พคน."
+      ]
+    },
+    {
+      "code": "D10102",
+      "shortName": "กฟส.วภ.",
+      "fullName": "กฟส.วาริชภูมิ",
+      "size": "XS",
+      "index": 71,
+      "parent43Id": "G43_D10_01",
+      "parent43Name": "กฟส.พังโคน",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D101",
+      "searchTokens": [
+        "D10102",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พังโคน",
+        "กฟส.วภ.",
+        "กฟส.วาริชภูมิ",
+        "กฟสพังโคน",
+        "กฟสวภ",
+        "กฟสวาริชภูมิ"
+      ]
+    },
+    {
+      "code": "D10105",
+      "shortName": "กฟส.นคน.",
+      "fullName": "กฟส.นิคมน้ำอูน",
+      "size": "XS",
+      "index": 72,
+      "parent43Id": "G43_D10_01",
+      "parent43Name": "กฟส.พังโคน",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D101",
+      "searchTokens": [
+        "D10105",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นคน.",
+        "กฟส.นิคมน้ำอูน",
+        "กฟส.พังโคน",
+        "กฟสนคน",
+        "กฟสนิคมน้ำอูน",
+        "กฟสพังโคน"
+      ]
+    },
+    {
+      "code": "D10301",
+      "shortName": "กฟส.วว.",
+      "fullName": "กฟส.วานรนิวาส",
+      "size": "S",
+      "index": 73,
+      "parent43Id": "G43_D10_02",
+      "parent43Name": "กฟส.วานรนิวาส",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน.",
+        "วว."
+      ],
+      "warehouseGroup": "กฟส.พังโคน",
+      "businessTypeCode": "D103",
+      "searchTokens": [
+        "D10301",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พังโคน",
+        "กฟส.วว.",
+        "กฟส.วานรนิวาส",
+        "กฟสพังโคน",
+        "กฟสวว",
+        "กฟสวานรนิวาส",
+        "วว",
+        "วว."
+      ]
+    },
+    {
+      "code": "D10302",
+      "shortName": "กฟส.บมง.",
+      "fullName": "กฟส.บ้านม่วง",
+      "size": "XS",
+      "index": 74,
+      "parent43Id": "G43_D10_02",
+      "parent43Name": "กฟส.วานรนิวาส",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D103",
+      "searchTokens": [
+        "D10302",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บมง.",
+        "กฟส.บ้านม่วง",
+        "กฟส.พังโคน",
+        "กฟส.วานรนิวาส",
+        "กฟสบมง",
+        "กฟสบ้านม่วง",
+        "กฟสพังโคน",
+        "กฟสวานรนิวาส"
+      ]
+    },
+    {
+      "code": "D10303",
+      "shortName": "กฟส.คตก.",
+      "fullName": "กฟส.คำตากล้า",
+      "size": "XS",
+      "index": 75,
+      "parent43Id": "G43_D10_02",
+      "parent43Name": "กฟส.วานรนิวาส",
+      "parent17Id": "G17_D10",
+      "parent17Name": "กฟส.พังโคน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.พคน.",
+      "groupCode": "D10",
+      "groupNum": 10,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D103",
+      "searchTokens": [
+        "D10303",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.คตก.",
+        "กฟส.คำตากล้า",
+        "กฟส.พังโคน",
+        "กฟส.วานรนิวาส",
+        "กฟสคตก",
+        "กฟสคำตากล้า",
+        "กฟสพังโคน",
+        "กฟสวานรนิวาส"
+      ]
+    },
+    {
+      "code": "D11101",
+      "shortName": "กฟจ.นภ.",
+      "fullName": "กฟจ.หนองบัวลำภู",
+      "size": "L",
+      "index": 76,
+      "parent43Id": "G43_D11_01",
+      "parent43Name": "กฟจ.หนองบัวลำภู",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "นภ."
+      ],
+      "warehouseGroup": "กฟจ.หนองบัวลำภู",
+      "businessTypeCode": "D111",
+      "searchTokens": [
+        "D11101",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "นภ",
+        "นภ."
+      ]
+    },
+    {
+      "code": "D11103",
+      "shortName": "กฟส.โนนสัง",
+      "fullName": "กฟส.โนนสัง",
+      "size": "XS",
+      "index": 77,
+      "parent43Id": "G43_D11_01",
+      "parent43Name": "กฟจ.หนองบัวลำภู",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "กฟจ.นภ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D111",
+      "searchTokens": [
+        "D11103",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.โนนสัง",
+        "กฟสโนนสัง"
+      ]
+    },
+    {
+      "code": "D11106",
+      "shortName": "กฟส.สวค.",
+      "fullName": "กฟส.สุวรรณคูหา",
+      "size": "XS",
+      "index": 78,
+      "parent43Id": "G43_D11_01",
+      "parent43Name": "กฟจ.หนองบัวลำภู",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "กฟจ.นภ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D111",
+      "searchTokens": [
+        "D11106",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.สวค.",
+        "กฟส.สุวรรณคูหา",
+        "กฟสสวค",
+        "กฟสสุวรรณคูหา"
+      ]
+    },
+    {
+      "code": "D11201",
+      "shortName": "กฟส.ศบร.",
+      "fullName": "กฟส.ศรีบุญเรือง",
+      "size": "S",
+      "index": 79,
+      "parent43Id": "G43_D11_03",
+      "parent43Name": "กฟส.ศรีบุญเรือง",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "กฟจ.นภ.",
+        "ศบร."
+      ],
+      "warehouseGroup": "กฟจ.หนองบัวลำภู",
+      "businessTypeCode": "D112",
+      "searchTokens": [
+        "D11201",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ศบร.",
+        "กฟส.ศรีบุญเรือง",
+        "กฟสศบร",
+        "กฟสศรีบุญเรือง",
+        "ศบร",
+        "ศบร."
+      ]
+    },
+    {
+      "code": "D11301",
+      "shortName": "กฟส.นกล.",
+      "fullName": "กฟส.นากลาง",
+      "size": "S",
+      "index": 80,
+      "parent43Id": "G43_D11_02",
+      "parent43Name": "กฟส.นากลาง",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "กฟจ.นภ.",
+        "นกล."
+      ],
+      "warehouseGroup": "กฟจ.หนองบัวลำภู",
+      "businessTypeCode": "D113",
+      "searchTokens": [
+        "D11301",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นกล.",
+        "กฟส.นากลาง",
+        "กฟสนกล",
+        "กฟสนากลาง",
+        "นกล",
+        "นกล."
+      ]
+    },
+    {
+      "code": "D11302",
+      "shortName": "กฟส.นาวัง",
+      "fullName": "กฟส.นาวัง",
+      "size": "XS",
+      "index": 81,
+      "parent43Id": "G43_D11_02",
+      "parent43Name": "กฟส.นากลาง",
+      "parent17Id": "G17_D11",
+      "parent17Name": "กฟจ.หนองบัวลำภู",
+      "parent8Id": "G8_06",
+      "parent8Name": "กฟจ.หนองบัวลำภู",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.นภ.",
+      "shortName17": "กฟจ.นภ.",
+      "groupCode": "D11",
+      "groupNum": 11,
+      "aliases": [
+        "กฟจ.นภ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D113",
+      "searchTokens": [
+        "D11302",
+        "กฟจ.นภ.",
+        "กฟจ.หนองบัวลำภู",
+        "กฟจนภ",
+        "กฟจหนองบัวลำภู",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นากลาง",
+        "กฟส.นาวัง",
+        "กฟสนากลาง",
+        "กฟสนาวัง"
+      ]
+    },
+    {
+      "code": "D12101",
+      "shortName": "กฟส.บผ.",
+      "fullName": "กฟส.บ้านไผ่",
+      "size": "M",
+      "index": 82,
+      "parent43Id": "G43_D12_01",
+      "parent43Name": "กฟส.บ้านไผ่",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก.",
+        "บผ."
+      ],
+      "warehouseGroup": "กฟส.บ้านไผ่",
+      "businessTypeCode": "D121",
+      "searchTokens": [
+        "D12101",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บผ.",
+        "กฟส.บ้านไผ่",
+        "กฟสบผ",
+        "กฟสบ้านไผ่",
+        "บผ",
+        "บผ."
+      ]
+    },
+    {
+      "code": "D12102",
+      "shortName": "กฟส.ชนบท",
+      "fullName": "กฟส.ชนบท",
+      "size": "XS",
+      "index": 83,
+      "parent43Id": "G43_D12_01",
+      "parent43Name": "กฟส.บ้านไผ่",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D121",
+      "searchTokens": [
+        "D12102",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ชนบท",
+        "กฟส.บ้านไผ่",
+        "กฟสชนบท",
+        "กฟสบ้านไผ่"
+      ]
+    },
+    {
+      "code": "D12103",
+      "shortName": "กฟส.ปนย.",
+      "fullName": "กฟส.เปือยน้อย",
+      "size": "XS",
+      "index": 84,
+      "parent43Id": "G43_D12_01",
+      "parent43Name": "กฟส.บ้านไผ่",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D121",
+      "searchTokens": [
+        "D12103",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านไผ่",
+        "กฟส.ปนย.",
+        "กฟส.เปือยน้อย",
+        "กฟสบ้านไผ่",
+        "กฟสปนย",
+        "กฟสเปือยน้อย"
+      ]
+    },
+    {
+      "code": "D12104",
+      "shortName": "กฟส.บ้านแฮด",
+      "fullName": "กฟส.บ้านแฮด",
+      "size": "XS",
+      "index": 85,
+      "parent43Id": "G43_D12_01",
+      "parent43Name": "กฟส.บ้านไผ่",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D121",
+      "searchTokens": [
+        "D12104",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านแฮด",
+        "กฟส.บ้านไผ่",
+        "กฟสบ้านแฮด",
+        "กฟสบ้านไผ่"
+      ]
+    },
+    {
+      "code": "D12105",
+      "shortName": "กฟส.นศล.",
+      "fullName": "กฟส.โนนศิลา",
+      "size": "XS",
+      "index": 86,
+      "parent43Id": "G43_D12_01",
+      "parent43Name": "กฟส.บ้านไผ่",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D121",
+      "searchTokens": [
+        "D12105",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นศล.",
+        "กฟส.บ้านไผ่",
+        "กฟส.โนนศิลา",
+        "กฟสนศล",
+        "กฟสบ้านไผ่",
+        "กฟสโนนศิลา"
+      ]
+    },
+    {
+      "code": "D12201",
+      "shortName": "กฟส.พล.",
+      "fullName": "กฟส.พล",
+      "size": "S",
+      "index": 87,
+      "parent43Id": "G43_D12_02",
+      "parent43Name": "กฟส.พล",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก.",
+        "พล."
+      ],
+      "warehouseGroup": "กฟส.บ้านไผ่",
+      "businessTypeCode": "D122",
+      "searchTokens": [
+        "D12201",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านไผ่",
+        "กฟส.พล",
+        "กฟส.พล.",
+        "กฟสบ้านไผ่",
+        "กฟสพล",
+        "พล",
+        "พล."
+      ]
+    },
+    {
+      "code": "D12203",
+      "shortName": "กฟส.วงน.",
+      "fullName": "กฟส.แวงน้อย",
+      "size": "XS",
+      "index": 88,
+      "parent43Id": "G43_D12_02",
+      "parent43Name": "กฟส.พล",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D122",
+      "searchTokens": [
+        "D12203",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านไผ่",
+        "กฟส.พล",
+        "กฟส.วงน.",
+        "กฟส.แวงน้อย",
+        "กฟสบ้านไผ่",
+        "กฟสพล",
+        "กฟสวงน",
+        "กฟสแวงน้อย"
+      ]
+    },
+    {
+      "code": "D12204",
+      "shortName": "กฟส.วญ.",
+      "fullName": "กฟส.แวงใหญ่",
+      "size": "XS",
+      "index": 89,
+      "parent43Id": "G43_D12_02",
+      "parent43Name": "กฟส.พล",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D122",
+      "searchTokens": [
+        "D12204",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านไผ่",
+        "กฟส.พล",
+        "กฟส.วญ.",
+        "กฟส.แวงใหญ่",
+        "กฟสบ้านไผ่",
+        "กฟสพล",
+        "กฟสวญ",
+        "กฟสแวงใหญ่"
+      ]
+    },
+    {
+      "code": "D12401",
+      "shortName": "กฟส.มจ.",
+      "fullName": "กฟส.มัญจาคีรี",
+      "size": "S",
+      "index": 90,
+      "parent43Id": "G43_D12_03",
+      "parent43Name": "กฟส.มัญจาคีรี",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก.",
+        "มจ."
+      ],
+      "warehouseGroup": "กฟส.บ้านไผ่",
+      "businessTypeCode": "D124",
+      "searchTokens": [
+        "D12401",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บ้านไผ่",
+        "กฟส.มจ.",
+        "กฟส.มัญจาคีรี",
+        "กฟสบ้านไผ่",
+        "กฟสมจ",
+        "กฟสมัญจาคีรี",
+        "มจ",
+        "มจ."
+      ]
+    },
+    {
+      "code": "D12403",
+      "shortName": "กฟส.คธย.",
+      "fullName": "กฟส.โคกโพธิ์ไชย",
+      "size": "XS",
+      "index": 91,
+      "parent43Id": "G43_D12_03",
+      "parent43Name": "กฟส.มัญจาคีรี",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D124",
+      "searchTokens": [
+        "D12403",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.คธย.",
+        "กฟส.บ้านไผ่",
+        "กฟส.มัญจาคีรี",
+        "กฟส.โคกโพธิ์ไชย",
+        "กฟสคธย",
+        "กฟสบ้านไผ่",
+        "กฟสมัญจาคีรี",
+        "กฟสโคกโพธิ์ไชย"
+      ]
+    },
+    {
+      "code": "D12501",
+      "shortName": "กฟส.นสห.",
+      "fullName": "กฟส.หนองสองห้อง",
+      "size": "S",
+      "index": 92,
+      "parent43Id": "G43_D12_04",
+      "parent43Name": "กฟส.หนองสองห้อง",
+      "parent17Id": "G17_D12",
+      "parent17Name": "กฟส.บ้านไผ่",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.บผ.",
+      "groupCode": "D12",
+      "groupNum": 12,
+      "aliases": [
+        "กฟจ.ขก.",
+        "นสห."
+      ],
+      "warehouseGroup": "กฟส.บ้านไผ่",
+      "businessTypeCode": "D125",
+      "searchTokens": [
+        "D12501",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.นสห.",
+        "กฟส.บ้านไผ่",
+        "กฟส.หนองสองห้อง",
+        "กฟสนสห",
+        "กฟสบ้านไผ่",
+        "กฟสหนองสองห้อง",
+        "นสห",
+        "นสห."
+      ]
+    },
+    {
+      "code": "D13101",
+      "shortName": "กฟจ.บฬ.",
+      "fullName": "กฟจ.บึงกาฬ",
+      "size": "M",
+      "index": 93,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "บฬ."
+      ],
+      "warehouseGroup": "กฟจ.บึงกาฬ",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13101",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "บฬ",
+        "บฬ."
+      ]
+    },
+    {
+      "code": "D13103",
+      "shortName": "กฟส.ปคด.",
+      "fullName": "กฟส.ปากคาด",
+      "size": "XS",
+      "index": 94,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13103",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ปคด.",
+        "กฟส.ปากคาด",
+        "กฟสปคด",
+        "กฟสปากคาด"
+      ]
+    },
+    {
+      "code": "D13104",
+      "shortName": "กฟส.พจร.",
+      "fullName": "กฟส.พรเจริญ",
+      "size": "XS",
+      "index": 95,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13104",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พจร.",
+        "กฟส.พรเจริญ",
+        "กฟสพจร",
+        "กฟสพรเจริญ"
+      ]
+    },
+    {
+      "code": "D13107",
+      "shortName": "กฟส.ซพ.",
+      "fullName": "กฟส.โซ่พิสัย",
+      "size": "XS",
+      "index": 96,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13107",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ซพ.",
+        "กฟส.โซ่พิสัย",
+        "กฟสซพ",
+        "กฟสโซ่พิสัย"
+      ]
+    },
+    {
+      "code": "D13109",
+      "shortName": "กฟส.ศวล.",
+      "fullName": "กฟส.ศรีวิไล",
+      "size": "XS",
+      "index": 97,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13109",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ศรีวิไล",
+        "กฟส.ศวล.",
+        "กฟสศรีวิไล",
+        "กฟสศวล"
+      ]
+    },
+    {
+      "code": "D13113",
+      "shortName": "กฟส.บคล.",
+      "fullName": "กฟส.บุ่งคล้า",
+      "size": "XS",
+      "index": 98,
+      "parent43Id": "G43_D13_01",
+      "parent43Name": "กฟจ.บึงกาฬ",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D131",
+      "searchTokens": [
+        "D13113",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บคล.",
+        "กฟส.บุ่งคล้า",
+        "กฟสบคล",
+        "กฟสบุ่งคล้า"
+      ]
+    },
+    {
+      "code": "D13201",
+      "shortName": "กฟส.ซก.",
+      "fullName": "กฟส.เซกา",
+      "size": "S",
+      "index": 99,
+      "parent43Id": "G43_D13_02",
+      "parent43Name": "กฟส.เซกา",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ.",
+        "ซก."
+      ],
+      "warehouseGroup": "กฟจ.บึงกาฬ",
+      "businessTypeCode": "D132",
+      "searchTokens": [
+        "D13201",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ซก.",
+        "กฟส.เซกา",
+        "กฟสซก",
+        "กฟสเซกา",
+        "ซก",
+        "ซก."
+      ]
+    },
+    {
+      "code": "D13202",
+      "shortName": "กฟส.บขห.",
+      "fullName": "กฟส.บึงโขงหลง",
+      "size": "XS",
+      "index": 100,
+      "parent43Id": "G43_D13_02",
+      "parent43Name": "กฟส.เซกา",
+      "parent17Id": "G17_D13",
+      "parent17Name": "กฟจ.บึงกาฬ",
+      "parent8Id": "G8_03",
+      "parent8Name": "กฟจ.บึงกาฬ",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.บฬ.",
+      "shortName17": "กฟจ.บฬ.",
+      "groupCode": "D13",
+      "groupNum": 13,
+      "aliases": [
+        "กฟจ.บฬ."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D132",
+      "searchTokens": [
+        "D13202",
+        "กฟจ.บฬ.",
+        "กฟจ.บึงกาฬ",
+        "กฟจบฬ",
+        "กฟจบึงกาฬ",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.บขห.",
+        "กฟส.บึงโขงหลง",
+        "กฟส.เซกา",
+        "กฟสบขห",
+        "กฟสบึงโขงหลง",
+        "กฟสเซกา"
+      ]
+    },
+    {
+      "code": "D14101",
+      "shortName": "กฟส.ขก.2",
+      "fullName": "กฟส.ขอนแก่น 2",
+      "size": "L",
+      "index": 101,
+      "parent43Id": "G43_D14_01",
+      "parent43Name": "กฟส.ขอนแก่น 2",
+      "parent17Id": "G17_D14",
+      "parent17Name": "กฟส.ขอนแก่น 2",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ขก.2",
+      "groupCode": "D14",
+      "groupNum": 14,
+      "aliases": [
+        "กฟจ.ขก.",
+        "ขก.2"
+      ],
+      "warehouseGroup": "กฟจ.ขอนแก่น",
+      "businessTypeCode": "D141",
+      "searchTokens": [
+        "D14101",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ขก.2",
+        "กฟส.ขอนแก่น 2",
+        "กฟสขก2",
+        "กฟสขอนแก่น 2",
+        "ขก.2",
+        "ขก2"
+      ]
+    },
+    {
+      "code": "D14102",
+      "shortName": "กฟส.ทพ.",
+      "fullName": "กฟส.ท่าพระ",
+      "size": "XS",
+      "index": 102,
+      "parent43Id": "G43_D14_01",
+      "parent43Name": "กฟส.ขอนแก่น 2",
+      "parent17Id": "G17_D14",
+      "parent17Name": "กฟส.ขอนแก่น 2",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ขก.2",
+      "groupCode": "D14",
+      "groupNum": 14,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D141",
+      "searchTokens": [
+        "D14102",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ขอนแก่น 2",
+        "กฟส.ทพ.",
+        "กฟส.ท่าพระ",
+        "กฟสขอนแก่น 2",
+        "กฟสทพ",
+        "กฟสท่าพระ"
+      ]
+    },
+    {
+      "code": "D14201",
+      "shortName": "กฟส.บฝ.",
+      "fullName": "กฟส.บ้านฝาง",
+      "size": "S",
+      "index": 103,
+      "parent43Id": "G43_D14_02",
+      "parent43Name": "กฟส.บ้านฝาง",
+      "parent17Id": "G17_D14",
+      "parent17Name": "กฟส.ขอนแก่น 2",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ขก.2",
+      "groupCode": "D14",
+      "groupNum": 14,
+      "aliases": [
+        "กฟจ.ขก.",
+        "บฝ."
+      ],
+      "warehouseGroup": "กฟจ.ขอนแก่น",
+      "businessTypeCode": "D142",
+      "searchTokens": [
+        "D14201",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ขอนแก่น 2",
+        "กฟส.บฝ.",
+        "กฟส.บ้านฝาง",
+        "กฟสขอนแก่น 2",
+        "กฟสบฝ",
+        "กฟสบ้านฝาง",
+        "บฝ",
+        "บฝ."
+      ]
+    },
+    {
+      "code": "D14202",
+      "shortName": "กฟส.พรย.",
+      "fullName": "กฟส.พระยืน",
+      "size": "XS",
+      "index": 104,
+      "parent43Id": "G43_D14_02",
+      "parent43Name": "กฟส.บ้านฝาง",
+      "parent17Id": "G17_D14",
+      "parent17Name": "กฟส.ขอนแก่น 2",
+      "parent8Id": "G8_01",
+      "parent8Name": "กฟจ.ขอนแก่น",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ขก.",
+      "shortName17": "กฟส.ขก.2",
+      "groupCode": "D14",
+      "groupNum": 14,
+      "aliases": [
+        "กฟจ.ขก."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D142",
+      "searchTokens": [
+        "D14202",
+        "กฟจ.ขก.",
+        "กฟจ.ขอนแก่น",
+        "กฟจขก",
+        "กฟจขอนแก่น",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ขอนแก่น 2",
+        "กฟส.บ้านฝาง",
+        "กฟส.พรย.",
+        "กฟส.พระยืน",
+        "กฟสขอนแก่น 2",
+        "กฟสบ้านฝาง",
+        "กฟสพรย",
+        "กฟสพระยืน"
+      ]
+    },
+    {
+      "code": "D15101",
+      "shortName": "กฟส.อด.2",
+      "fullName": "กฟส.อุดรธานี 2",
+      "size": "L",
+      "index": 105,
+      "parent43Id": "G43_D15_02",
+      "parent43Name": "กฟส.อุดรธานี 2",
+      "parent17Id": "G17_D15",
+      "parent17Name": "กฟส.อุดรธานี 2",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.อด.2",
+      "groupCode": "D15",
+      "groupNum": 15,
+      "aliases": [
+        "กฟจ.อด.",
+        "อด.2"
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D151",
+      "searchTokens": [
+        "D15101",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.อด.2",
+        "กฟส.อุดรธานี 2",
+        "กฟสอด2",
+        "กฟสอุดรธานี 2",
+        "อด.2",
+        "อด2"
+      ]
+    },
+    {
+      "code": "D15201",
+      "shortName": "กฟส.พญ.",
+      "fullName": "กฟส.พญ.",
+      "size": "S",
+      "index": 106,
+      "parent43Id": "G43_D15_01",
+      "parent43Name": "กฟส.พญ.",
+      "parent17Id": "G17_D15",
+      "parent17Name": "กฟส.อุดรธานี 2",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.อด.2",
+      "groupCode": "D15",
+      "groupNum": 15,
+      "aliases": [
+        "กฟจ.อด.",
+        "พญ."
+      ],
+      "warehouseGroup": "กฟจ.อุดรธานี",
+      "businessTypeCode": "D152",
+      "searchTokens": [
+        "D15201",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.พญ.",
+        "กฟส.อุดรธานี 2",
+        "กฟสพญ",
+        "กฟสอุดรธานี 2",
+        "พญ",
+        "พญ."
+      ]
+    },
+    {
+      "code": "D15202",
+      "shortName": "กฟส.สงค.",
+      "fullName": "กฟส.สร้างคอม",
+      "size": "XS",
+      "index": 107,
+      "parent43Id": "G43_D15_03",
+      "parent43Name": "กฟส.เพ็ญ",
+      "parent17Id": "G17_D15",
+      "parent17Name": "กฟส.อุดรธานี 2",
+      "parent8Id": "G8_07",
+      "parent8Name": "กฟจ.อุดรธานี",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.อด.",
+      "shortName17": "กฟส.อด.2",
+      "groupCode": "D15",
+      "groupNum": 15,
+      "aliases": [
+        "กฟจ.อด."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D152",
+      "searchTokens": [
+        "D15202",
+        "กฟจ.อด.",
+        "กฟจ.อุดรธานี",
+        "กฟจอด",
+        "กฟจอุดรธานี",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.สงค.",
+        "กฟส.สร้างคอม",
+        "กฟส.อุดรธานี 2",
+        "กฟส.เพ็ญ",
+        "กฟสสงค",
+        "กฟสสร้างคอม",
+        "กฟสอุดรธานี 2",
+        "กฟสเพ็ญ"
+      ]
+    },
+    {
+      "code": "D16101",
+      "shortName": "กฟส.สดด.",
+      "fullName": "กฟส.สว่างแดนดิน",
+      "size": "M",
+      "index": 108,
+      "parent43Id": "G43_D16_01",
+      "parent43Name": "กฟส.สว่างแดนดิน",
+      "parent17Id": "G17_D16",
+      "parent17Name": "กฟส.สว่างแดนดิน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.สดด.",
+      "groupCode": "D16",
+      "groupNum": 16,
+      "aliases": [
+        "กฟจ.สน.",
+        "สดด."
+      ],
+      "warehouseGroup": "กฟส.พังโคน",
+      "businessTypeCode": "D161",
+      "searchTokens": [
+        "D16101",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.สดด.",
+        "กฟส.สว่างแดนดิน",
+        "กฟสสดด",
+        "กฟสสว่างแดนดิน",
+        "สดด",
+        "สดด."
+      ]
+    },
+    {
+      "code": "D16102",
+      "shortName": "กฟส.จรศ.",
+      "fullName": "กฟส.เจริญศิลป์",
+      "size": "XS",
+      "index": 109,
+      "parent43Id": "G43_D16_01",
+      "parent43Name": "กฟส.สว่างแดนดิน",
+      "parent17Id": "G17_D16",
+      "parent17Name": "กฟส.สว่างแดนดิน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.สดด.",
+      "groupCode": "D16",
+      "groupNum": 16,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D161",
+      "searchTokens": [
+        "D16102",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.จรศ.",
+        "กฟส.สว่างแดนดิน",
+        "กฟส.เจริญศิลป์",
+        "กฟสจรศ",
+        "กฟสสว่างแดนดิน",
+        "กฟสเจริญศิลป์"
+      ]
+    },
+    {
+      "code": "D16103",
+      "shortName": "กฟส.สดว.",
+      "fullName": "กฟส.ส่องดาว",
+      "size": "XS",
+      "index": 110,
+      "parent43Id": "G43_D16_01",
+      "parent43Name": "กฟส.สว่างแดนดิน",
+      "parent17Id": "G17_D16",
+      "parent17Name": "กฟส.สว่างแดนดิน",
+      "parent8Id": "G8_04",
+      "parent8Name": "กฟจ.สกลนคร",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.สน.",
+      "shortName17": "กฟส.สดด.",
+      "groupCode": "D16",
+      "groupNum": 16,
+      "aliases": [
+        "กฟจ.สน."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "D161",
+      "searchTokens": [
+        "D16103",
+        "กฟจ.สกลนคร",
+        "กฟจ.สน.",
+        "กฟจสกลนคร",
+        "กฟจสน",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.สดว.",
+        "กฟส.สว่างแดนดิน",
+        "กฟส.ส่องดาว",
+        "กฟสสดว",
+        "กฟสสว่างแดนดิน",
+        "กฟสส่องดาว"
+      ]
+    },
+    {
+      "code": "D17101",
+      "shortName": "กฟส.วสพ.",
+      "fullName": "กฟส.วังสะพุง",
+      "size": "M",
+      "index": 111,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย.",
+        "วสพ."
+      ],
+      "warehouseGroup": "กฟจ.เลย",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17101",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.วสพ.",
+        "กฟส.วังสะพุง",
+        "กฟสวสพ",
+        "กฟสวังสะพุง",
+        "วสพ",
+        "วสพ."
+      ]
+    },
+    {
+      "code": "D17102",
+      "shortName": "กฟส.ภด.",
+      "fullName": "กฟส.ภูกระดึง",
+      "size": "XS",
+      "index": 112,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17102",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ภด.",
+        "กฟส.ภูกระดึง",
+        "กฟส.วังสะพุง",
+        "กฟสภด",
+        "กฟสภูกระดึง",
+        "กฟสวังสะพุง"
+      ]
+    },
+    {
+      "code": "D17103",
+      "shortName": "กฟส.ผขว.",
+      "fullName": "กฟส.ผาขาว",
+      "size": "XS",
+      "index": 113,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17103",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ผขว.",
+        "กฟส.ผาขาว",
+        "กฟส.วังสะพุง",
+        "กฟสผขว",
+        "กฟสผาขาว",
+        "กฟสวังสะพุง"
+      ]
+    },
+    {
+      "code": "D17104",
+      "shortName": "กฟส.ภล.",
+      "fullName": "กฟส.ภูหลวง",
+      "size": "XS",
+      "index": 114,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17104",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.ภล.",
+        "กฟส.ภูหลวง",
+        "กฟส.วังสะพุง",
+        "กฟสภล",
+        "กฟสภูหลวง",
+        "กฟสวังสะพุง"
+      ]
+    },
+    {
+      "code": "D17105",
+      "shortName": "กฟส.หนห.",
+      "fullName": "กฟส.หนองหิน",
+      "size": "XS",
+      "index": 115,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17105",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.วังสะพุง",
+        "กฟส.หนห.",
+        "กฟส.หนองหิน",
+        "กฟสวังสะพุง",
+        "กฟสหนห",
+        "กฟสหนองหิน"
+      ]
+    },
+    {
+      "code": "D17106",
+      "shortName": "กฟส.อรว.",
+      "fullName": "กฟส.เอราวัณ",
+      "size": "XS",
+      "index": 116,
+      "parent43Id": "G43_D17_01",
+      "parent43Name": "กฟส.วังสะพุง",
+      "parent17Id": "G17_D17",
+      "parent17Name": "กฟส.วังสะพุง",
+      "parent8Id": "G8_08",
+      "parent8Name": "กฟจ.เลย",
+      "regionId": "R01",
+      "regionName": "กฟฉ.1",
+      "shortName8": "กฟจ.ลย.",
+      "shortName17": "กฟส.วสพ.",
+      "groupCode": "D17",
+      "groupNum": 17,
+      "aliases": [
+        "กฟจ.ลย."
+      ],
+      "warehouseGroup": "",
+      "businessTypeCode": "",
+      "searchTokens": [
+        "D17106",
+        "กฟจ.ลย.",
+        "กฟจ.เลย",
+        "กฟจลย",
+        "กฟจเลย",
+        "กฟฉ.1",
+        "กฟฉ1",
+        "กฟส.วังสะพุง",
+        "กฟส.อรว.",
+        "กฟส.เอราวัณ",
+        "กฟสวังสะพุง",
+        "กฟสอรว",
+        "กฟสเอราวัณ"
+      ]
+    }
+  ],
+  "hierarchy": {
+    "region": {
+      "id": "R01",
+      "code": "D00000",
+      "name": "การไฟฟ้าส่วนภูมิภาค เขต 1 (ภาคตะวันออกเฉียงเหนือ)",
+      "shortName": "กฟฉ.1"
+    },
+    "children": [
+      {
+        "id": "G8_01",
+        "name": "กฟจ.ขอนแก่น",
+        "shortName": "กฟจ.ขก.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D03",
+            "code": "D03",
+            "name": "กฟจ.ขอนแก่น",
+            "shortName": "กฟจ.ขก.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D03_01",
+                "name": "กฟจ.ขอนแก่น",
+                "shortName": "กฟจ.ขก.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D03101",
+                    "shortName": "กฟจ.ขก.",
+                    "fullName": "กฟจ.ขอนแก่น",
+                    "size": "L",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D03_02",
+                "name": "กฟส.กระนวน",
+                "shortName": "กฟส.กน.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D03501",
+                    "shortName": "กฟส.กน.",
+                    "fullName": "กฟส.กระนวน",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D03502",
+                    "shortName": "กฟส.ซำสูง",
+                    "fullName": "กฟส.ซำสูง",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D03_03",
+                "name": "กฟส.น้ำพอง",
+                "shortName": "กฟส.นพง.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D03201",
+                    "shortName": "กฟส.นพง.",
+                    "fullName": "กฟส.น้ำพอง",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D03203",
+                    "shortName": "กฟส.ขสก.",
+                    "fullName": "กฟส.เขาสวนกวาง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D03207",
+                    "shortName": "กฟส.อรต.",
+                    "fullName": "กฟส.อุบลรัตน์",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D14",
+            "code": "D14",
+            "name": "กฟส.ขอนแก่น 2",
+            "shortName": "กฟส.ขก.2",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D14_01",
+                "name": "กฟส.ขอนแก่น 2",
+                "shortName": "กฟส.ขก.2",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D14101",
+                    "shortName": "กฟส.ขก.2",
+                    "fullName": "กฟส.ขอนแก่น 2",
+                    "size": "L",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D14102",
+                    "shortName": "กฟส.ทพ.",
+                    "fullName": "กฟส.ท่าพระ",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D14_02",
+                "name": "กฟส.บ้านฝาง",
+                "shortName": "กฟส.บฝ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D14201",
+                    "shortName": "กฟส.บฝ.",
+                    "fullName": "กฟส.บ้านฝาง",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D14202",
+                    "shortName": "กฟส.พรย.",
+                    "fullName": "กฟส.พระยืน",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D07",
+            "code": "D07",
+            "name": "กฟส.ชุมแพ",
+            "shortName": "กฟส.ชมพ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D07_01",
+                "name": "กฟส.ชุมแพ",
+                "shortName": "กฟส.ชมพ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D07101",
+                    "shortName": "กฟส.ชมพ.",
+                    "fullName": "กฟส.ชุมแพ",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D07102",
+                    "shortName": "กฟส.สชพ.",
+                    "fullName": "กฟส.สีชมพู",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D07109",
+                    "shortName": "กฟส.ภผม.",
+                    "fullName": "กฟส.ภูผาม่าน",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D07_02",
+                "name": "กฟส.ภูเวียง",
+                "shortName": "กฟส.ภว.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D07201",
+                    "shortName": "กฟส.ภว.",
+                    "fullName": "กฟส.ภูเวียง",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D07203",
+                    "shortName": "กฟส.หนค.",
+                    "fullName": "กฟส.หนองนาคำ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D07204",
+                    "shortName": "กฟส.วก.",
+                    "fullName": "กฟส.เวียงเก่า",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D07_03",
+                "name": "กฟส.หนองเรือ",
+                "shortName": "กฟส.นรอ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D07301",
+                    "shortName": "กฟส.นรอ.",
+                    "fullName": "กฟส.หนองเรือ",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D12",
+            "code": "D12",
+            "name": "กฟส.บ้านไผ่",
+            "shortName": "กฟส.บผ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D12_01",
+                "name": "กฟส.บ้านไผ่",
+                "shortName": "กฟส.บผ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D12101",
+                    "shortName": "กฟส.บผ.",
+                    "fullName": "กฟส.บ้านไผ่",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12102",
+                    "shortName": "กฟส.ชนบท",
+                    "fullName": "กฟส.ชนบท",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12103",
+                    "shortName": "กฟส.ปนย.",
+                    "fullName": "กฟส.เปือยน้อย",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12104",
+                    "shortName": "กฟส.บ้านแฮด",
+                    "fullName": "กฟส.บ้านแฮด",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12105",
+                    "shortName": "กฟส.นศล.",
+                    "fullName": "กฟส.โนนศิลา",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D12_02",
+                "name": "กฟส.พล",
+                "shortName": "กฟส.พล.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D12201",
+                    "shortName": "กฟส.พล.",
+                    "fullName": "กฟส.พล",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12203",
+                    "shortName": "กฟส.วงน.",
+                    "fullName": "กฟส.แวงน้อย",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12204",
+                    "shortName": "กฟส.วญ.",
+                    "fullName": "กฟส.แวงใหญ่",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D12_03",
+                "name": "กฟส.มัญจาคีรี",
+                "shortName": "กฟส.มจ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D12401",
+                    "shortName": "กฟส.มจ.",
+                    "fullName": "กฟส.มัญจาคีรี",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D12403",
+                    "shortName": "กฟส.คธย.",
+                    "fullName": "กฟส.โคกโพธิ์ไชย",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D12_04",
+                "name": "กฟส.หนองสองห้อง",
+                "shortName": "กฟส.นสห.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D12501",
+                    "shortName": "กฟส.นสห.",
+                    "fullName": "กฟส.หนองสองห้อง",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_02",
+        "name": "กฟจ.นครพนม",
+        "shortName": "กฟจ.นพ.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D06",
+            "code": "D06",
+            "name": "กฟจ.นครพนม",
+            "shortName": "กฟจ.นพ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D06_01",
+                "name": "กฟจ.นครพนม",
+                "shortName": "กฟจ.นพ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D06101",
+                    "shortName": "กฟจ.นพ.",
+                    "fullName": "กฟจ.นครพนม",
+                    "size": "L",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06102",
+                    "shortName": "กฟส.ทอ.",
+                    "fullName": "กฟส.ท่าอุเทน",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06104",
+                    "shortName": "กฟส.นหว.",
+                    "fullName": "กฟส.นาหว้า",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06105",
+                    "shortName": "กฟส.ศค.",
+                    "fullName": "กฟส.ศรีสงคราม",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06107",
+                    "shortName": "กฟส.ปลป.",
+                    "fullName": "กฟส.ปลาปาก",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06110",
+                    "shortName": "กฟส.พสว.",
+                    "fullName": "กฟส.โพนสวรรค์",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D06_02",
+                "name": "กฟส.ธาตุพนม",
+                "shortName": "กฟส.ธพ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D06201",
+                    "shortName": "กฟส.ธพ.",
+                    "fullName": "กฟส.ธาตุพนม",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06202",
+                    "shortName": "กฟส.รณ.",
+                    "fullName": "กฟส.เรณูนคร",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D06_03",
+                "name": "กฟส.นาแก",
+                "shortName": "กฟส.นก.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D06301",
+                    "shortName": "กฟส.นาแก",
+                    "fullName": "กฟส.นาแก",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06302",
+                    "shortName": "กฟส.วย.",
+                    "fullName": "กฟส.วังยาง",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D06_04",
+                "name": "กฟส.บ้านแพง",
+                "shortName": "กฟส.บพง.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D06401",
+                    "shortName": "กฟส.บพง.",
+                    "fullName": "กฟส.บ้านแพง",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D06402",
+                    "shortName": "กฟส.นทม.",
+                    "fullName": "กฟส.นาทม",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_03",
+        "name": "กฟจ.บึงกาฬ",
+        "shortName": "กฟจ.บฬ.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D13",
+            "code": "D13",
+            "name": "กฟจ.บึงกาฬ",
+            "shortName": "กฟจ.บฬ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D13_01",
+                "name": "กฟจ.บึงกาฬ",
+                "shortName": "กฟจ.บฬ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D13101",
+                    "shortName": "กฟจ.บฬ.",
+                    "fullName": "กฟจ.บึงกาฬ",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13103",
+                    "shortName": "กฟส.ปคด.",
+                    "fullName": "กฟส.ปากคาด",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13104",
+                    "shortName": "กฟส.พจร.",
+                    "fullName": "กฟส.พรเจริญ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13107",
+                    "shortName": "กฟส.ซพ.",
+                    "fullName": "กฟส.โซ่พิสัย",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13109",
+                    "shortName": "กฟส.ศวล.",
+                    "fullName": "กฟส.ศรีวิไล",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13113",
+                    "shortName": "กฟส.บคล.",
+                    "fullName": "กฟส.บุ่งคล้า",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D13_02",
+                "name": "กฟส.เซกา",
+                "shortName": "กฟส.ซก.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D13201",
+                    "shortName": "กฟส.ซก.",
+                    "fullName": "กฟส.เซกา",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D13202",
+                    "shortName": "กฟส.บขห.",
+                    "fullName": "กฟส.บึงโขงหลง",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_04",
+        "name": "กฟจ.สกลนคร",
+        "shortName": "กฟจ.สน.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D05",
+            "code": "D05",
+            "name": "กฟจ.สกลนคร",
+            "shortName": "กฟจ.สน.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D05_01",
+                "name": "กฟจ.สกลนคร",
+                "shortName": "กฟจ.สน.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D05101",
+                    "shortName": "กฟจ.สน.",
+                    "fullName": "กฟจ.สกลนคร",
+                    "size": "L",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05102",
+                    "shortName": "กฟส.กสม.",
+                    "fullName": "กฟส.กุสุมาลย์",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05103",
+                    "shortName": "กฟส.คศส.",
+                    "fullName": "กฟส.โคกศรีสุพรรณ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05106",
+                    "shortName": "กฟส.ภพ.",
+                    "fullName": "กฟส.ภูพาน",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05109",
+                    "shortName": "กฟส.ตงย.",
+                    "fullName": "กฟส.เต่างอย",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05111",
+                    "shortName": "กฟส.พนก.",
+                    "fullName": "กฟส.โพนนาแก้ว",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D05_02",
+                "name": "กฟส.พรรณานิคม",
+                "shortName": "กฟส.พณ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D05301",
+                    "shortName": "กฟส.พณ.",
+                    "fullName": "กฟส.พรรณานิคม",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D05302",
+                    "shortName": "กฟส.กบก.",
+                    "fullName": "กฟส.กุดบาก",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D05_03",
+                "name": "กฟส.อากาศอำนวย",
+                "shortName": "กฟส.ออ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D05201",
+                    "shortName": "กฟส.ออ.",
+                    "fullName": "กฟส.อากาศอำนวย",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D10",
+            "code": "D10",
+            "name": "กฟส.พังโคน",
+            "shortName": "กฟส.พคน.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D10_01",
+                "name": "กฟส.พังโคน",
+                "shortName": "กฟส.พคน.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D10101",
+                    "shortName": "กฟส.พคน.",
+                    "fullName": "กฟส.พังโคน",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D10102",
+                    "shortName": "กฟส.วภ.",
+                    "fullName": "กฟส.วาริชภูมิ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D10105",
+                    "shortName": "กฟส.นคน.",
+                    "fullName": "กฟส.นิคมน้ำอูน",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D10_02",
+                "name": "กฟส.วานรนิวาส",
+                "shortName": "กฟส.วว.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D10301",
+                    "shortName": "กฟส.วว.",
+                    "fullName": "กฟส.วานรนิวาส",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D10302",
+                    "shortName": "กฟส.บมง.",
+                    "fullName": "กฟส.บ้านม่วง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D10303",
+                    "shortName": "กฟส.คตก.",
+                    "fullName": "กฟส.คำตากล้า",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D16",
+            "code": "D16",
+            "name": "กฟส.สว่างแดนดิน",
+            "shortName": "กฟส.สดด.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D16_01",
+                "name": "กฟส.สว่างแดนดิน",
+                "shortName": "กฟส.สดด.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D16101",
+                    "shortName": "กฟส.สดด.",
+                    "fullName": "กฟส.สว่างแดนดิน",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D16102",
+                    "shortName": "กฟส.จรศ.",
+                    "fullName": "กฟส.เจริญศิลป์",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D16103",
+                    "shortName": "กฟส.สดว.",
+                    "fullName": "กฟส.ส่องดาว",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_05",
+        "name": "กฟจ.หนองคาย",
+        "shortName": "กฟจ.นค.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D02",
+            "code": "D02",
+            "name": "กฟจ.หนองคาย",
+            "shortName": "กฟจ.นค.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D02_01",
+                "name": "กฟจ.หนองคาย",
+                "shortName": "กฟจ.นค.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D02101",
+                    "shortName": "กฟจ.นค.",
+                    "fullName": "กฟจ.หนองคาย",
+                    "size": "L",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02105",
+                    "shortName": "กฟส.สรค.",
+                    "fullName": "กฟส.สระใคร",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D02_02",
+                "name": "กฟส.ท่าบ่อ",
+                "shortName": "กฟส.ทบ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D02301",
+                    "shortName": "กฟส.ทบ.",
+                    "fullName": "กฟส.ท่าบ่อ",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02302",
+                    "shortName": "กฟส.ศช.",
+                    "fullName": "กฟส.ศรีเชียงใหม่",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02303",
+                    "shortName": "กฟส.สคม.",
+                    "fullName": "กฟส.สังคม",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02306",
+                    "shortName": "กฟส.พธต.",
+                    "fullName": "กฟส.โพธิ์ตาก",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D02_03",
+                "name": "กฟส.โพนพิสัย",
+                "shortName": "กฟส.พส.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D02401",
+                    "shortName": "กฟส.พส.",
+                    "fullName": "กฟส.โพนพิสัย",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02402",
+                    "shortName": "กฟส.รวป.",
+                    "fullName": "กฟส.รัตนวาปี",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D02405",
+                    "shortName": "กฟส.ฝร.",
+                    "fullName": "กฟส.เฝ้าไร่",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_06",
+        "name": "กฟจ.หนองบัวลำภู",
+        "shortName": "กฟจ.นภ.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D11",
+            "code": "D11",
+            "name": "กฟจ.หนองบัวลำภู",
+            "shortName": "กฟจ.นภ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D11_01",
+                "name": "กฟจ.หนองบัวลำภู",
+                "shortName": "กฟจ.นภ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D11101",
+                    "shortName": "กฟจ.นภ.",
+                    "fullName": "กฟจ.หนองบัวลำภู",
+                    "size": "L",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D11103",
+                    "shortName": "กฟส.โนนสัง",
+                    "fullName": "กฟส.โนนสัง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D11106",
+                    "shortName": "กฟส.สวค.",
+                    "fullName": "กฟส.สุวรรณคูหา",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D11_02",
+                "name": "กฟส.นากลาง",
+                "shortName": "กฟส.นกล.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D11301",
+                    "shortName": "กฟส.นกล.",
+                    "fullName": "กฟส.นากลาง",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D11302",
+                    "shortName": "กฟส.นาวัง",
+                    "fullName": "กฟส.นาวัง",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D11_03",
+                "name": "กฟส.ศรีบุญเรือง",
+                "shortName": "กฟส.ศบร.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D11201",
+                    "shortName": "กฟส.ศบร.",
+                    "fullName": "กฟส.ศรีบุญเรือง",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_07",
+        "name": "กฟจ.อุดรธานี",
+        "shortName": "กฟจ.อด.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D01",
+            "code": "D01",
+            "name": "กฟจ.อุดรธานี",
+            "shortName": "กฟจ.อด.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D01_01",
+                "name": "กฟจ.อุดรธานี",
+                "shortName": "กฟจ.อด.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D01101",
+                    "shortName": "กฟจ.อด.",
+                    "fullName": "กฟจ.อุดรธานี",
+                    "size": "L",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D01_02",
+                "name": "กฟส.กุดจับ",
+                "shortName": "กฟส.กจบ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D01501",
+                    "shortName": "กฟส.กจบ.",
+                    "fullName": "กฟส.กุดจับ",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D01_03",
+                "name": "กฟส.บ้านผือ",
+                "shortName": "กฟส.บผอ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D01301",
+                    "shortName": "กฟส.บผอ.",
+                    "fullName": "กฟส.บ้านผือ",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D01302",
+                    "shortName": "กฟส.นสม.",
+                    "fullName": "กฟส.น้ำโสม",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D01305",
+                    "shortName": "กฟส.นายูง",
+                    "fullName": "กฟส.นายูง",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D01_04",
+                "name": "กฟส.หนองวัวซอ",
+                "shortName": "กฟส.นวซ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D01401",
+                    "shortName": "กฟส.นวซ.",
+                    "fullName": "กฟส.หนองวัวซอ",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D08",
+            "code": "D08",
+            "name": "กฟส.กุมภวาปี",
+            "shortName": "กฟส.กภว.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D08_01",
+                "name": "กฟส.กุมภวาปี",
+                "shortName": "กฟส.กภว.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D08101",
+                    "shortName": "กฟส.กภว.",
+                    "fullName": "กฟส.กุมภวาปี",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D08102",
+                    "shortName": "กฟส.ศธ.",
+                    "fullName": "กฟส.ศรีธาตุ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D08103",
+                    "shortName": "กฟส.นสอ.",
+                    "fullName": "กฟส.โนนสะอาด",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D08105",
+                    "shortName": "กฟส.วสม.",
+                    "fullName": "กฟส.วังสามหมอ",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D08109",
+                    "shortName": "กฟส.นงง.",
+                    "fullName": "กฟส.หนองแสง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D08110",
+                    "shortName": "กฟส.ปศค.",
+                    "fullName": "กฟส.ประจักษ์ศิลปาคม",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D09",
+            "code": "D09",
+            "name": "กฟส.หนองหาน",
+            "shortName": "กฟส.นห.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D09_01",
+                "name": "กฟส.บ้านดุง",
+                "shortName": "กฟส.บดง.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D09201",
+                    "shortName": "กฟส.บดง.",
+                    "fullName": "กฟส.บ้านดุง",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D09_02",
+                "name": "กฟส.หนองหาน",
+                "shortName": "กฟส.นห.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D09101",
+                    "shortName": "กฟส.นห.",
+                    "fullName": "กฟส.หนองหาน",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D09103",
+                    "shortName": "กฟส.ชว.",
+                    "fullName": "กฟส.ไชยวาน",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D09104",
+                    "shortName": "กฟส.ทฝ.",
+                    "fullName": "กฟส.ทุ่งฝน",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D09105",
+                    "shortName": "กฟส.พบษ.",
+                    "fullName": "กฟส.พิบูลย์รักษ์",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D09108",
+                    "shortName": "กฟส.กว.",
+                    "fullName": "กฟส.กู่แก้ว",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D15",
+            "code": "D15",
+            "name": "กฟส.อุดรธานี 2",
+            "shortName": "กฟส.อด.2",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D15_01",
+                "name": "กฟส.พญ.",
+                "shortName": "กฟส.พญ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D15201",
+                    "shortName": "กฟส.พญ.",
+                    "fullName": "กฟส.พญ.",
+                    "size": "S",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D15_02",
+                "name": "กฟส.อุดรธานี 2",
+                "shortName": "กฟส.อด.2",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D15101",
+                    "shortName": "กฟส.อด.2",
+                    "fullName": "กฟส.อุดรธานี 2",
+                    "size": "L",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D15_03",
+                "name": "กฟส.เพ็ญ",
+                "shortName": "",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D15202",
+                    "shortName": "กฟส.สงค.",
+                    "fullName": "กฟส.สร้างคอม",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G8_08",
+        "name": "กฟจ.เลย",
+        "shortName": "กฟจ.ลย.",
+        "type": "group8",
+        "children": [
+          {
+            "id": "G17_D04",
+            "code": "D04",
+            "name": "กฟจ.เลย",
+            "shortName": "กฟจ.ลย.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D04_01",
+                "name": "กฟจ.เลย",
+                "shortName": "กฟจ.ลย.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D04101",
+                    "shortName": "กฟจ.ลย.",
+                    "fullName": "กฟจ.เลย",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D04103",
+                    "shortName": "กฟส.นดง.",
+                    "fullName": "กฟส.นาด้วง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D04104",
+                    "shortName": "กฟส.ทล.",
+                    "fullName": "กฟส.ท่าลี่",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D04108",
+                    "shortName": "กฟส.ภร.",
+                    "fullName": "กฟส.ภูเรือ",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D04_02",
+                "name": "กฟส.ด่านซ้าย",
+                "shortName": "กฟส.ดซ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D04401",
+                    "shortName": "กฟส.ดซ.",
+                    "fullName": "กฟส.ด่านซ้าย",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D04402",
+                    "shortName": "กฟส.นาแห้ว",
+                    "fullName": "กฟส.นาแห้ว",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              },
+              {
+                "id": "G43_D04_03",
+                "name": "กฟส.เชียงคาน",
+                "shortName": "กฟส.ชคน.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D04301",
+                    "shortName": "กฟส.ชคน.",
+                    "fullName": "กฟส.เชียงคาน",
+                    "size": "S",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D04302",
+                    "shortName": "กฟส.ปชม.",
+                    "fullName": "กฟส.ปากชม",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "G17_D17",
+            "code": "D17",
+            "name": "กฟส.วังสะพุง",
+            "shortName": "กฟส.วสพ.",
+            "type": "group17",
+            "children": [
+              {
+                "id": "G43_D17_01",
+                "name": "กฟส.วังสะพุง",
+                "shortName": "กฟส.วสพ.",
+                "type": "group43",
+                "children": [
+                  {
+                    "code": "D17101",
+                    "shortName": "กฟส.วสพ.",
+                    "fullName": "กฟส.วังสะพุง",
+                    "size": "M",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D17102",
+                    "shortName": "กฟส.ภด.",
+                    "fullName": "กฟส.ภูกระดึง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D17103",
+                    "shortName": "กฟส.ผขว.",
+                    "fullName": "กฟส.ผาขาว",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D17104",
+                    "shortName": "กฟส.ภล.",
+                    "fullName": "กฟส.ภูหลวง",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D17105",
+                    "shortName": "กฟส.หนห.",
+                    "fullName": "กฟส.หนองหิน",
+                    "size": "XS",
+                    "type": "office"
+                  },
+                  {
+                    "code": "D17106",
+                    "shortName": "กฟส.อรว.",
+                    "fullName": "กฟส.เอราวัณ",
+                    "size": "XS",
+                    "type": "office"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

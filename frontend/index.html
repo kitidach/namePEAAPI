@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEA Data Retrieval — ระบบดึงข้อมูลชื่อการไฟฟ้า</title>
+  <meta name="description" content="ระบบค้นหาข้อมูลสำนักงานการไฟฟ้าส่วนภูมิภาค เขต 1 — รหัส ชื่อย่อ ชื่อเต็ม ความสัมพันธ์สังกัด">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <!-- Header -->
+    <header class="header">
+      <h1>ระบบดึงข้อมูลชื่อการไฟฟ้า</h1>
+      <p class="subtitle" id="headerSubtitle">กำลังโหลดข้อมูล...</p>
+    </header>
+
+    <!-- Stats Cards -->
+    <div class="stats-row" id="statsRow"></div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="table" id="tabTable">ตารางข้อมูล</button>
+      <button class="tab-btn" data-tab="tree" id="tabTree">โครงสร้างสังกัด</button>
+    </div>
+
+    <!-- Search & Filters -->
+    <div class="controls" id="controlsPanel">
+      <div class="search-box">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="searchInput" placeholder="ค้นหา... รหัส, ชื่อย่อ, ชื่อเต็ม (เช่น D01101, กฟจ.อด., อุดรธานี)">
+      </div>
+      <select class="filter-select" id="filterSize">
+        <option value="">ทุกระดับ</option>
+        <option value="L">L — ใหญ่</option>
+        <option value="M">M — กลาง</option>
+        <option value="S">S — เล็ก</option>
+        <option value="XS">XS — เล็กพิเศษ</option>
+      </select>
+      <select class="filter-select" id="filterGroup8">
+        <option value="">ทุก กฟจ.</option>
+      </select>
+      <select class="filter-select" id="filterGroupCode">
+        <option value="">ทุกจุดรวมงาน</option>
+      </select>
+    </div>
+
+    <!-- Table View -->
+    <div id="tableView">
+      <div class="table-container">
+        <div class="table-info">
+          <span id="resultCount">กำลังโหลด...</span>
+          <span id="pageSize"></span>
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th data-sort="index">ลำดับ <span class="sort-arrow"></span></th>
+                <th data-sort="code">รหัส <span class="sort-arrow"></span></th>
+                <th data-sort="shortName">ชื่อย่อ <span class="sort-arrow"></span></th>
+                <th data-sort="fullName">ชื่อเต็ม <span class="sort-arrow"></span></th>
+                <th data-sort="size">ระดับ <span class="sort-arrow"></span></th>
+                <th>สังกัด 43</th>
+                <th>สังกัด 17</th>
+                <th>สังกัด กฟจ.</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr><td colspan="8" class="loading"><div class="spinner"></div><br>กำลังโหลดข้อมูล...</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination" id="pagination"></div>
+      </div>
+    </div>
+
+    <!-- Tree View -->
+    <div id="treeView" style="display: none;">
+      <div class="tree-container" id="treeContainer">
+        <div class="loading"><div class="spinner"></div><br>กำลังโหลดโครงสร้าง...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail Modal -->
+  <div class="detail-overlay" id="detailOverlay">
+    <div class="detail-card" id="detailCard"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

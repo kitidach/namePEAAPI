@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+
+# Generated data bundle (rebuild with: npm run data:bundle)
+functions/_shared/pea_master_bundle.ts
+data/pea_master_bundle.ts
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

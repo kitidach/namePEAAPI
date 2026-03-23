@@ -1,0 +1,19 @@
+{
+  "name": "pea-api-cloudflare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PEA Data Retrieval API — Cloudflare Pages + Functions",
+  "scripts": {
+    "data:extract": "python scripts/extract_pea_data.py",
+    "data:bundle": "node scripts/bundle_data.js",
+    "data:rebuild": "npm run data:extract && npm run data:bundle",
+    "dev": "npx wrangler pages dev ./public --compatibility-date=2024-01-01",
+    "deploy": "npx wrangler pages deploy ./public",
+    "preview": "npx wrangler pages dev ./public --compatibility-date=2024-01-01"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240903.0",
+    "typescript": "^5.6.0",
+    "wrangler": "^3.78.0"
+  }
+}

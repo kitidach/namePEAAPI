@@ -1,0 +1,42 @@
+{
+  "source": "D:\\namePEAAPI\\data\\Peaname.xlsx",
+  "generatedAt": "2026-03-20T02:54:29.669836+00:00",
+  "warnings": [],
+  "errors": [],
+  "stats": {
+    "total_raw_rows": 377,
+    "unique_offices": 116,
+    "duplicate_rows_skipped": 232,
+    "region_rows": 3,
+    "orphan_rows": 26,
+    "offices_by_size": {
+      "L": 8,
+      "M": 9,
+      "S": 26,
+      "XS": 73
+    },
+    "total_offices": 116,
+    "group8_count": 8,
+    "group17_count": 17,
+    "group43_count": 44
+  },
+  "assumptions": [
+    "P code (col P) is the unique primary key for offices",
+    "Sheet1 has ~3 repeated sections with same offices in different grouping contexts",
+    "We take the FIRST occurrence of each P code as the canonical record",
+    "Rows with P='D00000' are region/HQ rows, not individual offices",
+    "Rows with no P code are orphan metadata rows (skipped)",
+    "Col H format: 'N. FullName' where N is sequential index (1-116)",
+    "Col O (L/M/S/XS) is the office size classification",
+    "#N/A and '0' values in Excel are treated as empty/null",
+    "Single region กฟฉ.1 in current data; model supports multiple"
+  ],
+  "validation": {
+    "totalOffices": 116,
+    "uniquePCodes": 116,
+    "dataHash": "e55ca3c3fb9d",
+    "allSizesValid": true,
+    "allCodesNonEmpty": true,
+    "status": "OK"
+  }
+}

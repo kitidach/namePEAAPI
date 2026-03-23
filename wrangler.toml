@@ -1,0 +1,8 @@
+name = "pea-api"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run data:bundle"
+
+# Pages Functions are auto-detected from /functions directory
+# Static assets are served from /public directory
