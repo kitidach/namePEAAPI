@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEA API Docs — คู่มือการใช้งาน API</title>
+  <meta name="description" content="เอกสาร API สำหรับระบบดึงข้อมูลชื่อการไฟฟ้าส่วนภูมิภาค เขต 1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --bg2: #1a1d27;
+      --bg3: #242736;
+      --border: rgba(255,255,255,0.08);
+      --text: #e4e4e7;
+      --text2: #a1a1aa;
+      --text3: #71717a;
+      --accent: #6366f1;
+      --accent-g: rgba(99,102,241,0.15);
+      --green: #22c55e;
+      --yellow: #f59e0b;
+      --red: #ef4444;
+      --blue: #3b82f6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.7; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code, pre { font-family: 'JetBrains Mono', monospace; }
+    .container { max-width: 900px; margin: 0 auto; padding: 24px 20px 80px; }
+
+    /* Header */
+    .doc-header { padding: 40px 0 32px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+    .doc-header h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    .doc-header .badge { display: inline-block; background: var(--green); color: #000; font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; }
+    .doc-header p { color: var(--text2); font-size: 0.95rem; }
+    .back-link { display: inline-block; margin-bottom: 16px; color: var(--text2); font-size: 0.85rem; }
+
+    /* Nav */
+    .doc-nav { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 32px; }
+    .doc-nav h3 { font-size: 0.8rem; color: var(--text3); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+    .doc-nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+    .doc-nav li a { display: inline-block; background: var(--bg3); border: 1px solid var(--border); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; color: var(--text2); transition: all 0.2s; }
+    .doc-nav li a:hover { background: var(--accent-g); color: var(--text); border-color: var(--accent); text-decoration: none; }
+
+    /* Base URL */
+    .base-url { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
+    .base-url label { color: var(--text3); font-size: 0.8rem; white-space: nowrap; }
+    .base-url code { color: var(--accent); font-size: 1rem; font-weight: 600; flex: 1; word-break: break-all; }
+    .copy-btn { background: var(--bg3); border: 1px solid var(--border); color: var(--text2); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.75rem; white-space: nowrap; transition: all 0.2s; }
+    .copy-btn:hover { background: var(--accent-g); color: var(--text); }
+
+    /* Endpoint */
+    .endpoint { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 24px; overflow: hidden; }
+    .ep-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; cursor: pointer; }
+    .ep-header:hover { background: rgba(255,255,255,0.02); }
+    .method { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; }
+    .method-get { background: rgba(34,197,94,0.15); color: var(--green); }
+    .ep-path { font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; color: var(--text); }
+    .ep-desc { color: var(--text2); font-size: 0.8rem; margin-left: auto; }
+    .ep-body { padding: 20px; display: none; }
+    .ep-body.open { display: block; }
+
+    /* Params table */
+    .params-table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 0.85rem; }
+    .params-table th { text-align: left; color: var(--text3); font-weight: 500; padding: 6px 12px; border-bottom: 1px solid var(--border); font-size: 0.75rem; text-transform: uppercase; }
+    .params-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text2); }
+    .params-table td:first-child { color: var(--text); font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; }
+    .tag { font-size: 0.65rem; padding: 1px 5px; border-radius: 3px; margin-left: 6px; }
+    .tag-req { background: rgba(239,68,68,0.15); color: var(--red); }
+    .tag-opt { background: rgba(161,161,170,0.15); color: var(--text3); }
+
+    /* Code block */
+    .code-tabs { display: flex; gap: 4px; margin-bottom: -1px; position: relative; z-index: 1; }
+    .code-tab { background: var(--bg); border: 1px solid var(--border); border-bottom: none; padding: 6px 14px; border-radius: 6px 6px 0 0; font-size: 0.75rem; color: var(--text3); cursor: pointer; }
+    .code-tab.active { background: var(--bg3); color: var(--text); }
+    .code-block { background: var(--bg3); border: 1px solid var(--border); border-radius: 0 8px 8px 8px; padding: 16px; overflow-x: auto; position: relative; }
+    .code-block pre { color: var(--text); font-size: 0.8rem; line-height: 1.6; white-space: pre; }
+    .code-block .copy-code { position: absolute; top: 8px; right: 8px; background: var(--bg); border: 1px solid var(--border); color: var(--text3); padding: 3px 8px; border-radius: 4px; cursor: pointer; font-size: 0.65rem; }
+    .code-block .copy-code:hover { color: var(--text); }
+
+    /* Section title */
+    .section-title { font-size: 1.15rem; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+    .section-title:first-of-type { margin-top: 0; }
+    .sub-title { font-size: 0.95rem; margin: 20px 0 8px; color: var(--text2); }
+    .note { background: rgba(99,102,241,0.08); border-left: 3px solid var(--accent); padding: 12px 16px; border-radius: 0 8px 8px 0; color: var(--text2); font-size: 0.85rem; margin: 12px 0; }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .doc-header h1 { font-size: 1.3rem; }
+      .ep-desc { display: none; }
+      .base-url { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← กลับหน้าหลัก</a>
+
+    <div class="doc-header">
+      <h1>📡 PEA API Docs <span class="badge">v1</span></h1>
+      <p>คู่มือการใช้งาน API ระบบข้อมูลสำนักงานการไฟฟ้าส่วนภูมิภาค เขต 1<br>ใช้ได้ฟรี ไม่ต้อง login — เหมาะสำหรับ Google Apps Script, n8n, Python, Excel</p>
+    </div>
+
+    <div class="base-url">
+      <label>BASE URL</label>
+      <code id="baseUrl">https://namepeaapi.pages.dev/api/v1</code>
+      <button class="copy-btn" onclick="copyText('baseUrl')">📋 Copy</button>
+    </div>
+
+    <div class="doc-nav">
+      <h3>📑 Endpoints</h3>
+      <ul>
+        <li><a href="#offices">ค้นหาสำนักงาน</a></li>
+        <li><a href="#office-detail">รายละเอียดสำนักงาน</a></li>
+        <li><a href="#group-offices">จัดกลุ่มสำนักงาน</a></li>
+        <li><a href="#stats">สถิติ</a></li>
+        <li><a href="#hierarchy">โครงสร้างสังกัด</a></li>
+        <li><a href="#export">Export CSV/JSON</a></li>
+      </ul>
+    </div>
+
+    <!-- ═══ OFFICES ═══ -->
+    <h2 class="section-title" id="offices">1. ค้นหาสำนักงาน</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/offices</span>
+        <span class="ep-desc">ค้นหาสำนักงานทั้งหมด พร้อม filter & pagination</span>
+      </div>
+      <div class="ep-body open">
+        <p style="color:var(--text2); font-size:0.85rem; margin-bottom:12px">ค้นหาสำนักงาน กรองตามขนาด กฟจ. หรือจุดรวมงาน รองรับ pagination และ sorting</p>
+
+        <h4 class="sub-title">Parameters</h4>
+        <table class="params-table">
+          <thead><tr><th>ชื่อ</th><th>ค่า</th><th>คำอธิบาย</th></tr></thead>
+          <tbody>
+            <tr><td>q <span class="tag tag-opt">optional</span></td><td>string</td><td>คำค้น: รหัส, ชื่อย่อ, ชื่อเต็ม</td></tr>
+            <tr><td>size</td><td>L, M, S, XS</td><td>กรองตามขนาด</td></tr>
+            <tr><td>group8</td><td>string</td><td>กรองตาม กฟจ. เช่น G8_01</td></tr>
+            <tr><td>groupCode</td><td>string</td><td>กรองตามจุดรวมงาน เช่น D01</td></tr>
+            <tr><td>page</td><td>number</td><td>หน้า (default: 1)</td></tr>
+            <tr><td>limit</td><td>number</td><td>จำนวนต่อหน้า (default: 50, max: 200)</td></tr>
+            <tr><td>sort</td><td>code, shortName, fullName, size, index</td><td>เรียงตาม</td></tr>
+            <tr><td>order</td><td>asc, desc</td><td>ลำดับ (default: asc)</td></tr>
+          </tbody>
+        </table>
+
+        <h4 class="sub-title">ตัวอย่าง</h4>
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'offices-curl')">cURL</button>
+          <button class="code-tab" onclick="showTab(this,'offices-js')">JavaScript</button>
+          <button class="code-tab" onclick="showTab(this,'offices-py')">Python</button>
+          <button class="code-tab" onclick="showTab(this,'offices-gas')">Apps Script</button>
+        </div>
+        <div class="code-block" id="offices-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>curl "https://namepeaapi.pages.dev/api/v1/offices?q=อุดร&size=L"</pre>
+        </div>
+        <div class="code-block" id="offices-js" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>const res = await fetch(
+  "https://namepeaapi.pages.dev/api/v1/offices?q=อุดร&limit=10"
+);
+const json = await res.json();
+console.log(json.data); // [{code, shortName, fullName, ...}]</pre>
+        </div>
+        <div class="code-block" id="offices-py" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>import requests
+
+r = requests.get("https://namepeaapi.pages.dev/api/v1/offices",
+    params={"q": "อุดร", "size": "L"})
+data = r.json()
+for office in data["data"]:
+    print(office["shortName"], office["fullName"])</pre>
+        </div>
+        <div class="code-block" id="offices-gas" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>function getOffices() {
+  var url = "https://namepeaapi.pages.dev/api/v1/offices?q=อุดร";
+  var res = UrlFetchApp.fetch(url);
+  var json = JSON.parse(res.getContentText());
+
+  var sheet = SpreadsheetApp.getActiveSheet();
+  json.data.forEach(function(o, i) {
+    sheet.getRange(i + 1, 1).setValue(o.code);
+    sheet.getRange(i + 1, 2).setValue(o.shortName);
+    sheet.getRange(i + 1, 3).setValue(o.fullName);
+    sheet.getRange(i + 1, 4).setValue(o.size);
+  });
+}</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ OFFICE DETAIL ═══ -->
+    <h2 class="section-title" id="office-detail">2. รายละเอียดสำนักงาน</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/offices/{code}</span>
+        <span class="ep-desc">ดึงข้อมูลสำนักงาน 1 แห่งจากรหัส</span>
+      </div>
+      <div class="ep-body">
+        <p style="color:var(--text2); font-size:0.85rem; margin-bottom:12px">ดึงข้อมูลสำนักงานจาก code เช่น D01101</p>
+
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'detail-curl')">cURL</button>
+          <button class="code-tab" onclick="showTab(this,'detail-gas')">Apps Script</button>
+        </div>
+        <div class="code-block" id="detail-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>curl "https://namepeaapi.pages.dev/api/v1/offices/D01101"</pre>
+        </div>
+        <div class="code-block" id="detail-gas" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>function getOfficeByCode(code) {
+  var url = "https://namepeaapi.pages.dev/api/v1/offices/" + code;
+  var res = UrlFetchApp.fetch(url);
+  var json = JSON.parse(res.getContentText());
+  Logger.log(json.data.shortName + " — " + json.data.fullName);
+  return json.data;
+}</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ GROUP OFFICES ═══ -->
+    <h2 class="section-title" id="group-offices">3. จัดกลุ่มสำนักงาน ⭐</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/tools/group-offices</span>
+        <span class="ep-desc">จัดกลุ่มสำนักงานเป็น กฟจ.(...), กฟส.(...)</span>
+      </div>
+      <div class="ep-body open">
+        <p style="color:var(--text2); font-size:0.85rem; margin-bottom:12px">กรอกชื่อย่อ/ชื่อเต็ม/รหัส → จัดกลุ่มเป็นรูปแบบ กฟจ.(...), กฟส.(...) พร้อม copy ได้เลย</p>
+
+        <div class="note">
+          💡 รองรับหลาย format: <code>กฟส.รณ.</code>, <code>เรณูนคร</code>, <code>รณ.</code>, <code>D06202</code>
+        </div>
+
+        <h4 class="sub-title">Parameters</h4>
+        <table class="params-table">
+          <thead><tr><th>ชื่อ</th><th>ค่า</th><th>คำอธิบาย</th></tr></thead>
+          <tbody>
+            <tr><td>names <span class="tag tag-req">required</span></td><td>string</td><td>ชื่อสำนักงาน คั่นด้วย , เช่น กฟส.รณ.,กฟส.ภผม.</td></tr>
+          </tbody>
+        </table>
+
+        <h4 class="sub-title">ตัวอย่าง</h4>
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'group-curl')">cURL</button>
+          <button class="code-tab" onclick="showTab(this,'group-js')">JavaScript</button>
+          <button class="code-tab" onclick="showTab(this,'group-gas')">Apps Script</button>
+        </div>
+        <div class="code-block" id="group-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre># ชื่อย่อ
+curl "https://namepeaapi.pages.dev/api/v1/tools/group-offices?names=กฟส.รณ.,กฟส.ภผม."
+
+# ชื่อเต็ม
+curl "https://namepeaapi.pages.dev/api/v1/tools/group-offices?names=เรณูนคร,ภูผาม่าน"
+
+# Response:
+# {
+#   "data": {
+#     "formatted": "กฟจ.(นพ.,ขก.),\nกฟส.(ธพ.,ชมพ.,รณ.,ภผม.)"
+#   }
+# }</pre>
+        </div>
+        <div class="code-block" id="group-js" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>async function groupOffices(names) {
+  const url = new URL("https://namepeaapi.pages.dev/api/v1/tools/group-offices");
+  url.searchParams.set("names", names);
+
+  const res = await fetch(url);
+  const json = await res.json();
+  return json.data.formatted;
+  // "กฟจ.(นพ.,ขก.),\nกฟส.(ธพ.,ชมพ.,รณ.,ภผม.)"
+}
+
+// ใช้งาน
+const result = await groupOffices("กฟส.รณ.,กฟส.ภผม.,กฟส.คตก.");
+console.log(result);</pre>
+        </div>
+        <div class="code-block" id="group-gas" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>/**
+ * จัดกลุ่มสำนักงาน — ใช้ใน Google Sheets ได้เลย
+ * =groupPEA("กฟส.รณ.,กฟส.ภผม.")
+ */
+function groupPEA(names) {
+  var url = "https://namepeaapi.pages.dev/api/v1/tools/group-offices?names="
+            + encodeURIComponent(names);
+  var res = UrlFetchApp.fetch(url);
+  var json = JSON.parse(res.getContentText());
+  return json.data.formatted;
+}
+
+// ตัวอย่างผลลัพธ์:
+// กฟจ.(นพ.,ขก.),
+// กฟส.(ธพ.,ชมพ.,รณ.,ภผม.)</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ STATS ═══ -->
+    <h2 class="section-title" id="stats">4. สถิติ</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/stats</span>
+        <span class="ep-desc">สถิติรวม จำนวนสำนักงานแยกขนาด/กลุ่ม</span>
+      </div>
+      <div class="ep-body">
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'stats-curl')">cURL</button>
+        </div>
+        <div class="code-block" id="stats-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>curl "https://namepeaapi.pages.dev/api/v1/stats"
+
+# Response:
+# {
+#   "data": {
+#     "totalOffices": 116,
+#     "bySize": {"L": 8, "M": 17, "S": 47, "XS": 44},
+#     ...
+#   }
+# }</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ HIERARCHY ═══ -->
+    <h2 class="section-title" id="hierarchy">5. โครงสร้างสังกัด</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/hierarchy</span>
+        <span class="ep-desc">โครงสร้าง tree: เขต → กฟจ. → จุดรวมงาน → สาขา</span>
+      </div>
+      <div class="ep-body">
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'hier-curl')">cURL</button>
+        </div>
+        <div class="code-block" id="hier-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>curl "https://namepeaapi.pages.dev/api/v1/hierarchy"</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ EXPORT ═══ -->
+    <h2 class="section-title" id="export">6. Export CSV / JSON</h2>
+
+    <div class="endpoint">
+      <div class="ep-header" onclick="toggleEp(this)">
+        <span class="method method-get">GET</span>
+        <span class="ep-path">/export/offices</span>
+        <span class="ep-desc">ดาวน์โหลดข้อมูลทั้งหมดเป็น CSV หรือ JSON</span>
+      </div>
+      <div class="ep-body">
+        <table class="params-table">
+          <thead><tr><th>ชื่อ</th><th>ค่า</th><th>คำอธิบาย</th></tr></thead>
+          <tbody>
+            <tr><td>format <span class="tag tag-req">required</span></td><td>csv, json</td><td>รูปแบบไฟล์</td></tr>
+            <tr><td>q, size, group8, groupCode</td><td>string</td><td>filter เหมือน /offices</td></tr>
+          </tbody>
+        </table>
+        <div class="code-tabs">
+          <button class="code-tab active" onclick="showTab(this,'export-curl')">cURL</button>
+          <button class="code-tab" onclick="showTab(this,'export-py')">Python</button>
+        </div>
+        <div class="code-block" id="export-curl">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre># CSV (Excel-compatible, UTF-8 BOM)
+curl -o offices.csv "https://namepeaapi.pages.dev/api/v1/export/offices?format=csv"
+
+# JSON
+curl -o offices.json "https://namepeaapi.pages.dev/api/v1/export/offices?format=json"
+
+# พร้อม filter
+curl -o filtered.csv "https://namepeaapi.pages.dev/api/v1/export/offices?format=csv&size=L"</pre>
+        </div>
+        <div class="code-block" id="export-py" style="display:none">
+          <button class="copy-code" onclick="copyCode(this)">Copy</button>
+<pre>import requests
+import csv
+import io
+
+r = requests.get("https://namepeaapi.pages.dev/api/v1/export/offices",
+    params={"format": "csv"})
+r.encoding = "utf-8-sig"
+
+reader = csv.DictReader(io.StringIO(r.text))
+for row in reader:
+    print(row["รหัส"], row["ชื่อย่อ"])</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ RESPONSE FORMAT ═══ -->
+    <h2 class="section-title">Response Format</h2>
+    <p style="color:var(--text2); font-size:0.85rem; margin-bottom:12px">ทุก endpoint ตอบ JSON ในรูปแบบเดียวกัน:</p>
+    <div class="code-block" style="border-radius: 8px;">
+<pre>{
+  "success": true,
+  "data": { ... },        // ข้อมูล
+  "meta": {               // pagination / stats
+    "total": 116,
+    "page": 1,
+    "limit": 50
+  },
+  "error": null            // null ถ้าสำเร็จ
+}
+
+// กรณี error:
+{
+  "success": false,
+  "data": null,
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "Office not found: XXX"
+  }
+}</pre>
+    </div>
+
+    <!-- ═══ RATE LIMIT ═══ -->
+    <h2 class="section-title">⚡ ข้อจำกัดและหมายเหตุ</h2>
+    <div style="color:var(--text2); font-size:0.85rem; line-height: 2;">
+      <ul style="padding-left: 20px;">
+        <li>✅ ใช้ฟรี ไม่ต้อง API key หรือ login</li>
+        <li>✅ รองรับ CORS — เรียกจาก browser ได้เลย</li>
+        <li>✅ CSV มี UTF-8 BOM — เปิดใน Excel ภาษาไทยได้</li>
+        <li>📦 ข้อมูลเป็น กฟฉ.1 (116 สำนักงาน)</li>
+        <li>⚠️ ไม่ควรเรียก API เกิน 100 requests/นาที</li>
+        <li>🔄 ข้อมูลอัปเดตเมื่อ deploy ใหม่ ไม่ใช่ real-time</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:40px; padding-top:20px; border-top:1px solid var(--border); color:var(--text3); font-size:0.75rem; text-align:center;">
+      PEA Data Retrieval API v1 — Cloudflare Pages
+    </div>
+  </div>
+
+  <script>
+    function toggleEp(header) {
+      header.nextElementSibling.classList.toggle('open');
+    }
+    function showTab(btn, id) {
+      const parent = btn.closest('.ep-body') || btn.closest('.endpoint')?.querySelector('.ep-body') || btn.parentElement.parentElement;
+      parent.querySelectorAll('.code-block').forEach(b => b.style.display = 'none');
+      parent.querySelectorAll('.code-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(id).style.display = 'block';
+    }
+    function copyText(id) {
+      const text = document.getElementById(id).textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById(id).nextElementSibling;
+        btn.textContent = '✅ Copied!';
+        setTimeout(() => btn.textContent = '📋 Copy', 1500);
+      });
+    }
+    function copyCode(btn) {
+      const code = btn.parentElement.querySelector('pre').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = '✅';
+        setTimeout(() => btn.textContent = 'Copy', 1500);
+      });
+    }
+  </script>
+</body>
+</html>
